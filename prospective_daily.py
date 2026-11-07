@@ -5,6 +5,7 @@ import io
 import json
 import os
 import urllib.request
+import urllib.error
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -19,6 +20,34 @@ def github_json(url, token):
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
 
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+def download_archive(url, token):
+    """Authenticate to GitHub API, then fetch its signed redirect without Bearer token."""
+    req = urllib.request.Request(url, headers={
+        "Authorization": "Bearer " + token,
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "spor-muduru-prospective-research"})
+    opener = urllib.request.build_opener(NoRedirect)
+    try:
+        response = opener.open(req, timeout=30)
+    except urllib.error.HTTPError as exc:
+        if exc.code != 302:
+            raise
+        signed_url = exc.headers.get("Location")
+    else:
+        with response:
+            if response.status != 302:
+                raise ValueError("Unexpected artifact response status")
+            signed_url = response.headers.get("Location")
+    if not signed_url or not signed_url.startswith("https://"):
+        raise ValueError("Missing HTTPS signed artifact redirect")
+    with urllib.request.urlopen(urllib.request.Request(signed_url, headers={
+        "User-Agent": "spor-muduru-prospective-research"}), timeout=30) as response:
+        return response.read()
+
 def archive_predictions(repo, token, current_run, limit=30):
     url = f"https://api.github.com/repos/{repo}/actions/artifacts?per_page=100"
     artifacts = github_json(url, token).get("artifacts", [])
@@ -27,11 +56,8 @@ def archive_predictions(repo, token, current_run, limit=30):
     snapshots = []
     failures = []
     for artifact in artifacts[:limit]:
-        request = urllib.request.Request(artifact["archive_download_url"], headers={
-            "Authorization": "Bearer " + token, "User-Agent": "spor-muduru-prospective-research"})
         try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                archive = zipfile.ZipFile(io.BytesIO(response.read()))
+            archive = zipfile.ZipFile(io.BytesIO(download_archive(artifact["archive_download_url"], token)))
             with archive:
                 for name in archive.namelist():
                     if name.endswith(".json") and Path(name).name.startswith("predictions_"):

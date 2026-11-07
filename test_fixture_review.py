@@ -13,6 +13,12 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(review(self.f,self.e)[0]["time_review"],"SOURCE_TIMEZONE_UNVERIFIED")
     def test_near_time_still_unverified(self):
         self.assertEqual(review(self.f,self.e)[0]["time_review"],"TIME_WITHIN_30M_UNVERIFIED")
+    def test_league_mapping_missing(self):
+        self.assertEqual(review(self.f,self.e)[0]["league_review"],"LEAGUE_MAPPING_MISSING")
+    def test_league_mapping_match(self):
+        self.assertEqual(review(self.f,self.e,league_map={"soccer_test":["L"]})[0]["league_review"],"LEAGUE_MATCH")
+    def test_league_mapping_mismatch(self):
+        self.assertEqual(review(self.f,self.e,league_map={"soccer_test":["OTHER"]})[0]["league_review"],"LEAGUE_MISMATCH")
     def test_other_team(self):
         self.e[0]["away_team"]="Other";self.assertEqual(review(self.f,self.e),[])
     def test_time_too_far(self):

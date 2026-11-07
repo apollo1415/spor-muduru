@@ -55,6 +55,7 @@ def main():
                                          "kickoff_istanbul":dt.astimezone(IST).isoformat()})
                 except (ValueError,KeyError,TypeError):pass
         except Exception:failures.append(league)
+    (out/"horizon_fixtures.json").write_text(json.dumps(fixtures,ensure_ascii=False),encoding="utf-8")
     rows,counts=compare(fixtures,events)
     fields=["event_id","provider_home","provider_away","provider_kickoff_utc","source_league","source_kickoff","delta_minutes","status","approved"]
     with (out/"horizon_coverage.csv").open("w",encoding="utf-8-sig",newline="") as f:

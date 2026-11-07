@@ -5,7 +5,7 @@ from pathlib import Path
 from collections import Counter
 from odds_ev import utc_date
 
-FIELDS=["event_id","provider_sport","provider_home","provider_away","source_league","kickoff_istanbul","delta_minutes","league_review","review_status","model_status","p_home","p_draw","p_away","p_over25","p_btts","eligible_for_odds","reason"]
+FIELDS=["event_id","provider_sport","provider_home","provider_away","source_league","source_home","source_away","kickoff_istanbul","delta_minutes","league_review","review_status","model_status","p_home","p_draw","p_away","p_over25","p_btts","eligible_for_odds","reason"]
 def reconcile(queue,models):
     index={}
     for m in models:
@@ -24,7 +24,7 @@ def reconcile(queue,models):
                 "MODEL_AVAILABLE_MANUAL_APPROVAL_REQUIRED")
         row={"event_id":q.get("event_id",""),"provider_sport":q.get("provider_sport",""),
              "provider_home":q.get("provider_home",""),"provider_away":q.get("provider_away",""),
-             "source_league":q.get("source_league",""),"kickoff_istanbul":q.get("source_kickoff_istanbul",""),
+             "source_league":q.get("source_league",""),"source_home":q.get("source_home",""),"source_away":q.get("source_away",""),"kickoff_istanbul":q.get("source_kickoff_istanbul",""),
              "delta_minutes":q.get("delta_minutes",""),"league_review":q.get("league_review",""),
              "review_status":q.get("review_status",""),"model_status":m.get("decision","NOT_AVAILABLE"),
              "eligible_for_odds":"NO","reason":reason}

@@ -43,7 +43,15 @@ def transform(events,mappings,captured):
                                      "source":"The Odds API v4 / "+str(book.get("key","unknown"))+" / event "+str(eid),
                                      "captured_at_utc":updated})
         except (KeyError,TypeError,ValueError) as ex:issues.append({"event_id":eid,"reason":str(ex)})
-    # One deterministic quote per fixture/market; avoid duplicate keys in odds_ev.\n    # Prefer the most recently updated valid bookmaker quote, then bookmaker key.\n    best={}\n    for row in rows:\n        k=(row["league"],row["home"],row["away"],row["kickoff_istanbul"],row["market"])\n        rank=(utc_date(row["captured_at_utc"]),row["source"])\n        if k not in best or rank>(utc_date(best[k]["captured_at_utc"]),best[k]["source"]):best[k]=row\n    return list(best.values()),issues\n
+    # One deterministic quote per fixture/market; avoid duplicate keys in odds_ev.
+    # Prefer the most recently updated valid bookmaker quote, then bookmaker key.
+    best={}
+    for row in rows:
+        k=(row["league"],row["home"],row["away"],row["kickoff_istanbul"],row["market"])
+        rank=(utc_date(row["captured_at_utc"]),row["source"])
+        if k not in best or rank>(utc_date(best[k]["captured_at_utc"]),best[k]["source"]):best[k]=row
+    return list(best.values()),issues
+
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("--sport",default="soccer_epl",help="One supported provider sport key")
@@ -63,7 +71,10 @@ def main():
             with open(a.mapping,encoding="utf-8-sig",newline="") as f:
                 maps=list(csv.DictReader(f))
             required={"event_id","provider_home","provider_away","league","home","away","kickoff_istanbul"}
-            if not maps:\n                summary["status"]="NO_APPROVED_FIXTURES"\n            elif any(not required.issubset(m) or any(not m[k].strip() for k in required) for m in maps):\n                summary["status"]="INVALID_MAPPING"
+            if not maps:
+                summary["status"]="NO_APPROVED_FIXTURES"
+            elif any(not required.issubset(m) or any(not m[k].strip() for k in required) for m in maps):
+                summary["status"]="INVALID_MAPPING"
             else:
                 ids=[m["event_id"] for m in maps]
                 if len(ids)!=len(set(ids)):raise ValueError("duplicate provider event id in mapping")

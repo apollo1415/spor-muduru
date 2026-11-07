@@ -40,6 +40,8 @@ jobs:
         run: python fixture_review_report.py --queue reports/odds/fixture_review_queue.csv --out reports/odds/fixture_review_report.md
       - name: Audit candidate fixtures against organizer evidence snapshot
         run: python official_evidence_audit.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --out reports/odds/official_evidence_audit.json
+      - name: Prepare human fixture verification checklist
+        run: python fixture_verification_checklist.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --out reports/odds
       - name: Audit exact-team fixture coverage and kickoff offsets
         run: python coverage_audit.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Audit bookmaker fixture mismatches

@@ -5,6 +5,8 @@ from datetime import datetime,timezone
 from pathlib import Path
 from odds_ev import utc_date
 
+SPORT_LEAGUES={"ENG_1_premier-league":"soccer_epl","TUR_1_super-lig":"soccer_turkey_super_league"}
+
 FIELDS=["league","home","away","kickoff_istanbul","market","decimal_odds","source","captured_at_utc"]
 def transform(events,mappings,captured):
     """Mapping keyed by provider event id; requires exact approved provider teams/time."""
@@ -52,6 +54,15 @@ def transform(events,mappings,captured):
         if k not in best or rank>(utc_date(best[k]["captured_at_utc"]),best[k]["source"]):best[k]=row
     return list(best.values()),issues
 
+def group_mappings(maps):
+    """Only query supported sports; fail closed for unknown league identifiers."""
+    groups={}
+    for m in maps:
+        sport=SPORT_LEAGUES.get(m["league"])
+        if not sport:raise ValueError("UNSUPPORTED_LEAGUE_MAPPING")
+        groups.setdefault(sport,{})[m["event_id"]]=m
+    return groups
+
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("--sport",default="soccer_epl",help="One supported provider sport key")
@@ -78,18 +89,29 @@ def main():
             else:
                 ids=[m["event_id"] for m in maps]
                 if len(ids)!=len(set(ids)):raise ValueError("duplicate provider event id in mapping")
-                params=urllib.parse.urlencode({"apiKey":key,"regions":a.regions,"markets":"h2h,totals","oddsFormat":"decimal","dateFormat":"iso"})
-                url="https://api.the-odds-api.com/v4/sports/"+urllib.parse.quote(a.sport,safe="")+"/odds?"+params
-                req=urllib.request.Request(url,headers={"User-Agent":"spor-muduru-research/0.8"})
-                # Never print request URLs or API errors containing credentials.
                 try:
-                    with urllib.request.urlopen(req,timeout=25) as response:
-                        events=json.load(response)
-                    captured=datetime.now(timezone.utc).isoformat()
-                    rows,issues=transform(events,{m["event_id"]:m for m in maps},captured)
-                    summary.update(status="FETCHED",rows=len(rows),issues=issues[:30])
-                except Exception:
-                    summary["status"]="FETCH_FAILED"
+                    groups=group_mappings(maps)
+                except ValueError:
+                    summary["status"]="UNSUPPORTED_LEAGUE_MAPPING"
+                else:
+                    summary["sports"]={}
+                    failed=False
+                    for sport,mapping in groups.items():
+                        params=urllib.parse.urlencode({"apiKey":key,"regions":a.regions,"markets":"h2h,totals","oddsFormat":"decimal","dateFormat":"iso"})
+                        url="https://api.the-odds-api.com/v4/sports/"+urllib.parse.quote(sport,safe="")+"/odds?"+params
+                        req=urllib.request.Request(url,headers={"User-Agent":"spor-muduru-research/0.9"})
+                        try:
+                            with urllib.request.urlopen(req,timeout=25) as response:
+                                events=json.load(response)
+                            batch,issues=transform(events,mapping,datetime.now(timezone.utc).isoformat())
+                            rows.extend(batch)
+                            summary["issues"].extend(issues[:30])
+                            summary["sports"][sport]={"status":"FETCHED","rows":len(batch)}
+                        except Exception:
+                            failed=True
+                            summary["sports"][sport]={"status":"FETCH_FAILED","rows":0}
+                    summary.update(status="PARTIAL_FETCH_FAILED" if failed and rows else "FETCH_FAILED" if failed else "FETCHED",rows=len(rows))
+
     with (out/"verified_odds.csv").open("w",newline="",encoding="utf-8-sig") as f:
         w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerows(rows)
     (out/"provider_summary.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False),encoding="utf-8")

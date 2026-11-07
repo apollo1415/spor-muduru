@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """SPOR MUDURU — free source inventory; transparent, uncalibrated Poisson baseline."""
 import argparse,csv,io,json,math,re,urllib.request
+from count_models import add_count_markets
 from datetime import datetime,timedelta,timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -51,6 +52,11 @@ def model(f,history):
             v=sample(history,team,home,field)
             z["n_"+name+"_"+field]=len(v)
             z["avg_"+name+"_"+field]=round(average(v),2) if len(v)>=5 else None
+    add_count_markets(z,history,h,a,sample,"corners","home_corners","away_corners",[7,8,9,10])
+    add_count_markets(z,history,h,a,sample,"shots","home_shots","away_shots",[19,21,23,25])
+    add_count_markets(z,history,h,a,sample,"target","home_target","away_target",[6,7,8,9])
+    add_count_markets(z,history,h,a,sample,"first_half_goals","ht_home","ht_away",[0,1,2])
+    add_count_markets(z,history,h,a,sample,"first_half_corners","home_corners_1h","away_corners_1h",[3,4,5])
     return z
 def main():
     ap=argparse.ArgumentParser()
@@ -97,7 +103,7 @@ def main():
         with (out/name).open("w",newline="",encoding="utf-8-sig") as f:
             w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows(items)
     write_csv("matches.csv",matches);write_csv("coverage.csv",coverage)
-    summary={"date":args.date,"as_of":now.isoformat(),"source":"oladeeayo/open-matchday","leagues_attempted":len(leagues),"leagues_ok":len(leagues)-len(errors),"leagues_failed":len(errors),"matches_total":len(matches),"matches_future":sum(r.get("decision") not in ("STARTED_OR_PAST","UNKNOWN_KICKOFF") for r in matches),"matches_modelled":sum(r.get("decision")=="MODEL_ONLY_NO_ODDS" for r in matches),"bet_recommendations":0,"errors":errors,"limitations":["Not the full official Iddaa coupon","No verified odds, EV, xG or lineups","Poisson baseline not backtested or calibrated","Source kickoff timezone may be inaccurate; verify official schedules","No independent corner/shot/half-time probabilistic models"]}
+    summary={"date":args.date,"as_of":now.isoformat(),"source":"oladeeayo/open-matchday","leagues_attempted":len(leagues),"leagues_ok":len(leagues)-len(errors),"leagues_failed":len(errors),"matches_total":len(matches),"matches_future":sum(r.get("decision") not in ("STARTED_OR_PAST","UNKNOWN_KICKOFF") for r in matches),"matches_modelled":sum(r.get("decision")=="MODEL_ONLY_NO_ODDS" for r in matches),"bet_recommendations":0,"errors":errors,"limitations":["Not the full official Iddaa coupon","No verified odds, EV, xG or lineups","Poisson baseline not backtested or calibrated","Source kickoff timezone may be inaccurate; verify official schedules","Exploratory corner/shot/half-time Poisson count models, uncalibrated; absent data left blank"]}
     (out/"summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(summary,ensure_ascii=False))
     if not leagues or len(errors)==len(leagues):raise SystemExit(2)

@@ -1,0 +1,5 @@
+event_id,decision,provider_home,provider_away,league,home,away,kickoff_istanbul
+0cfbab01e152f81e34f9014e02c7eb79,APPROVE,Crystal Palace,Liverpool,ENG_1_premier-league,Crystal Palace,Liverpool,2026-11-08T17:00:00+03:00
+3a4608abdf257d2a0024b944757d9dc9,APPROVE,Sunderland,Chelsea,ENG_1_premier-league,Sunderland,Chelsea,2026-11-08T17:00:00+03:00
+a85eafd97e49ac329956fa1022be891d,APPROVE,Alanyaspor,Trabzonspor,TUR_1_super-lig,Alanyaspor,Trabzonspor,2026-11-08T18:30:00+03:00
+b8d6ab6ecc8bb356c6335d3f417d0ecf,APPROVE,Aston Villa,Sunderland,ENG_1_premier-league,Aston Villa,Sunderland,2026-11-21T18:00:00+03:00

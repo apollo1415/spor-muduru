@@ -138,7 +138,6 @@ jobs:
           retention-days: 30
           if-no-files-found: warn
       - name: Evaluate archived prospective predictions
-        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: python prospective_daily.py --out reports/prospective/evaluation.json

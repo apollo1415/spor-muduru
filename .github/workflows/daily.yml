@@ -1,0 +1,26 @@
+name: SPOR MUDURU daily free-data inventory
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Collect and analyse
+        run: python spor_muduru.py --out reports/today
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-report
+          path: reports/today/
+          retention-days: 30
+          if-no-files-found: warn

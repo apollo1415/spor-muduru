@@ -42,11 +42,35 @@ def benchmark(rows, min_fit=100, min_validation=50, min_holdout=50):
     chosen = min(methods, key=lambda name: (scores[name]["brier"], scores[name]["log_loss"], name))
     base = scored(test, methods["identity"])
     result = scored(test, methods[chosen])
+    # Freeze the method before holdout; report chronological stability without reselection.
+    holdout_days = sorted({r["date"] for r in holdout})
+    if len(holdout_days) >= 2:
+        midpoint = holdout_days[len(holdout_days) // 2]
+        segments = [
+            ("early", [r for r in holdout if r["date"] < midpoint]),
+            ("late", [r for r in holdout if r["date"] >= midpoint]),
+        ]
+    else:
+        segments = []
+    stability = []
+    for name, segment in segments:
+        pairs = [(float(r["probability"]), int(r["outcome"])) for r in segment]
+        baseline = scored(pairs, methods["identity"])
+        adjusted = scored(pairs, methods[chosen])
+        stability.append({
+            "segment": name, "n": len(pairs), "status": "EVALUATED" if len(pairs) >= 30 else "INSUFFICIENT_SAMPLE",
+            "baseline": baseline, "selected": adjusted,
+            "improved_both": (adjusted["brier"] < baseline["brier"] and
+                              adjusted["log_loss"] < baseline["log_loss"]) if len(pairs) >= 30 else None,
+        })
+    stable_both_halves = (len(stability) == 2 and
+                          all(x["improved_both"] is True for x in stability))
     return {"status": "EVALUATED", "fit_n": len(fit), "validation_n": len(val),
             "holdout_n": len(test), "validation_start": first, "holdout_start": second,
             "selected_on_validation": chosen, "validation_scores": scores,
             "holdout_baseline": base, "holdout_selected": result,
             "holdout_improved_both": result["brier"] < base["brier"] and result["log_loss"] < base["log_loss"],
+            "holdout_segments": stability, "stable_both_halves": stable_both_halves,
             "deployment": "RESEARCH_ONLY"}
 
 def main():
@@ -67,7 +91,8 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps({"markets": {k: {"status": v["status"], "selected": v.get("selected_on_validation"),
-                                      "holdout_improved_both": v.get("holdout_improved_both")} for k, v in results.items()},
+                                      "holdout_improved_both": v.get("holdout_improved_both"),
+                                      "stable_both_halves": v.get("stable_both_halves")} for k, v in results.items()},
                       "approved_for_betting": 0}))
 
 if __name__ == "__main__":

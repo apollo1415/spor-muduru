@@ -24,6 +24,8 @@ jobs:
         run: python odds_discovery.py --matches reports/today/matches.csv --out reports/odds
       - name: Audit 14-day source fixture horizon
         run: python horizon_coverage.py --events reports/odds/provider_events.json --out reports/odds --days 14
+      - name: Build manual fixture review queue
+        run: python fixture_review.py --fixtures reports/odds/horizon_fixtures.json --events reports/odds/provider_events.json --out reports/odds
       - name: Audit exact-team fixture coverage and kickoff offsets
         run: python coverage_audit.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Audit bookmaker fixture mismatches

@@ -61,7 +61,7 @@ def main():
     now=datetime.fromisoformat(args.as_of).astimezone(IST) if args.as_of else datetime.now(IST)
     out=Path(args.out);out.mkdir(parents=True,exist_ok=True)
     index=get("LEAGUE_INDEX.md")
-    leagues=list(dict.fromkeys(re.findall(r'^\|\s*`([A-Z][A-Z0-9_-]+)`\s*\|',index,re.M)))
+    leagues=list(dict.fromkeys(re.findall(r'^\|\s*`([^`]+)`\s*\|',index,re.M)))
     # Match fixtures in source UTC date and adjacent UTC dates to cover Istanbul day boundaries.
     dates={(datetime.fromisoformat(args.date).date()+timedelta(days=d)).isoformat() for d in [-1,0,1]}
     matches=[];coverage=[];errors=[]

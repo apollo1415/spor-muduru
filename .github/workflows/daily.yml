@@ -34,6 +34,8 @@ jobs:
         run: python coverage_audit.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Audit bookmaker fixture mismatches
         run: python matching_diagnostics.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
+      - name: Gate bookmaker fixture mappings on explicit manual approvals
+        run: python fixture_approval_gate.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --approvals config/manual_fixture_approvals.csv --out config/approved_fixture_mapping.csv --summary reports/odds/approval_gate_summary.json
       - name: Fetch approved bookmaker odds if configured
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}

@@ -38,7 +38,7 @@ def main():
     a=p.parse_args()
     out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
     with open(a.matches,encoding="utf-8-sig",newline="") as f:matches=list(csv.DictReader(f))
-    key=os.environ.get("ODDS_API_KEY");results=[];statuses=[]
+    key=os.environ.get("ODDS_API_KEY");results=[];statuses=[];all_events=[]
     if key:
         for sport in [s.strip() for s in a.sports.split(",") if s.strip()]:
             params=urllib.parse.urlencode({"apiKey":key,"regions":"eu","markets":"h2h","oddsFormat":"decimal"})
@@ -47,10 +47,12 @@ def main():
                 with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"spor-muduru-discovery/0.1"}),timeout=25) as resp:
                     events=json.load(resp)
                 results.extend(candidates(matches,events,sport))
+                all_events.extend({"id":e.get("id"),"home_team":e.get("home_team"),"away_team":e.get("away_team"),"commence_time":e.get("commence_time")} for e in events)
                 statuses.append({"sport":sport,"status":"FETCHED","events":len(events)})
             except Exception:
                 # No exception text or URL: some HTTP errors include secret-bearing URLs.
                 statuses.append({"sport":sport,"status":"FETCH_FAILED","events":0})
+    (out/"provider_events.json").write_text(json.dumps(all_events,ensure_ascii=False),encoding="utf-8")
     with (out/"fixture_candidates.csv").open("w",encoding="utf-8-sig",newline="") as f:
         w=csv.DictWriter(f,fieldnames=COLUMNS);w.writeheader();w.writerows(results)
     summary={"api_key_present":bool(key),"candidates":len(results),"sports":statuses,

@@ -40,14 +40,14 @@ jobs:
         run: python fixture_review_report.py --queue reports/odds/fixture_review_queue.csv --out reports/odds/fixture_review_report.md
       - name: Audit candidate fixtures against organizer evidence snapshot
         run: python official_evidence_audit.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --out reports/odds/official_evidence_audit.json
-      - name: Prepare human fixture verification checklist
-        run: python fixture_verification_checklist.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --out reports/odds
       - name: Audit exact-team fixture coverage and kickoff offsets
         run: python coverage_audit.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Audit bookmaker fixture mismatches
         run: python matching_diagnostics.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Gate bookmaker fixture mappings on explicit manual approvals
         run: python fixture_approval_gate.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --approvals config/manual_fixture_approvals.csv --out config/approved_fixture_mapping.csv --summary reports/odds/approval_gate_summary.json
+      - name: Prepare human fixture verification checklist
+        run: python fixture_verification_checklist.py --queue reports/odds/fixture_review_queue.csv --evidence config/official_fixture_evidence.json --out reports/odds
       - name: Fetch approved bookmaker odds if configured
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}

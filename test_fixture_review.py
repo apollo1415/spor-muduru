@@ -1,4 +1,6 @@
 import unittest
+import json
+from pathlib import Path
 from fixture_review import review
 class ReviewTests(unittest.TestCase):
     def setUp(self):
@@ -19,6 +21,18 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(review(self.f,self.e,league_map={"soccer_test":["L"]})[0]["league_review"],"LEAGUE_MATCH")
     def test_league_mapping_mismatch(self):
         self.assertEqual(review(self.f,self.e,league_map={"soccer_test":["OTHER"]})[0]["league_review"],"LEAGUE_MISMATCH")
+    def test_configured_epl_mapping(self):
+        m=json.loads(Path("config/provider_league_map.json").read_text(encoding="utf-8"))
+        self.e[0]["sport_key"]="soccer_epl";self.f[0]["league"]="ENG_1_premier-league"
+        self.assertEqual(review(self.f,self.e,league_map=m)[0]["league_review"],"LEAGUE_MATCH")
+    def test_configured_turkey_mapping(self):
+        m=json.loads(Path("config/provider_league_map.json").read_text(encoding="utf-8"))
+        self.e[0]["sport_key"]="soccer_turkey_super_league";self.f[0]["league"]="TUR_1_super-lig"
+        self.assertEqual(review(self.f,self.e,league_map=m)[0]["league_review"],"LEAGUE_MATCH")
+    def test_configured_cross_league_rejected(self):
+        m=json.loads(Path("config/provider_league_map.json").read_text(encoding="utf-8"))
+        self.e[0]["sport_key"]="soccer_epl";self.f[0]["league"]="TUR_1_super-lig"
+        self.assertEqual(review(self.f,self.e,league_map=m)[0]["league_review"],"LEAGUE_MISMATCH")
     def test_other_team(self):
         self.e[0]["away_team"]="Other";self.assertEqual(review(self.f,self.e),[])
     def test_time_too_far(self):

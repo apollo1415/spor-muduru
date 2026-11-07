@@ -26,6 +26,8 @@ jobs:
         run: python odds_discovery.py --matches reports/today/matches.csv --out reports/odds
       - name: Audit 14-day source fixture horizon
         run: python horizon_coverage.py --events reports/odds/provider_events.json --out reports/odds --days 14
+      - name: Model upcoming 14-day fixtures (research only)
+        run: python horizon_models.py --fixtures reports/odds/horizon_fixtures.json --out reports/horizon
       - name: Build manual fixture review queue
         run: python fixture_review.py --fixtures reports/odds/horizon_fixtures.json --events reports/odds/provider_events.json --out reports/odds
       - name: Render readable fixture identity review
@@ -90,6 +92,14 @@ jobs:
         with:
           name: spor-muduru-backtest
           path: reports/backtest/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Upload future research models
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-horizon-models
+          path: reports/horizon/
           retention-days: 30
           if-no-files-found: warn
       - name: Upload reports

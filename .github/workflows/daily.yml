@@ -18,6 +18,16 @@ jobs:
         run: python -m unittest discover -v
       - name: Collect and analyse
         run: python spor_muduru.py --out reports/today
+      - name: Research-only odds and EV (no odds feed connected)
+        run: python odds_ev.py --matches reports/today/matches.csv --out reports/odds
+      - name: Upload research EV report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-odds-ev
+          path: reports/odds/
+          retention-days: 30
+          if-no-files-found: warn
       - name: Walk-forward backtest
         run: python backtest.py --out reports/backtest
       - name: Out-of-sample calibration audit

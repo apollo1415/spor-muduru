@@ -40,15 +40,25 @@ def main():
     p.add_argument("--queue",default="reports/odds/fixture_review_queue.csv")
     p.add_argument("--evidence",default="config/official_fixture_evidence.json")
     p.add_argument("--out",default="reports/odds")
+    p.add_argument("--approved-mapping",default="config/approved_fixture_mapping.csv")
     a=p.parse_args()
     with open(a.queue,encoding="utf-8-sig",newline="") as f:queue=list(csv.DictReader(f))
     evidence=json.loads(Path(a.evidence).read_text(encoding="utf-8")).get("fixtures",[])
     rows=checklist(queue,evidence)
+    approved_ids=set()
+    mapping=Path(a.approved_mapping)
+    if mapping.exists():
+        with mapping.open(encoding="utf-8-sig",newline="") as f:
+            approved_ids={r["event_id"] for r in csv.DictReader(f) if r.get("event_id")}
+    for row in rows:
+        if row["event_id"] in approved_ids:
+            row["manual_approval"]="YES"
+            row["blocking_reason"]=";".join(x for x in row["blocking_reason"].split(";") if x!="EXPLICIT_MANUAL_APPROVAL_REQUIRED")
     out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
     with (out/"fixture_verification_checklist.csv").open("w",encoding="utf-8-sig",newline="") as f:
         w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerows(rows)
     summary={"candidates":len(rows),"snapshot_matches":sum(x["evidence_snapshot_match"]=="YES" for x in rows),
-             "independently_verified":0,"approved":0,
+             "independently_verified":0,"approved":sum(x["manual_approval"]=="YES" for x in rows),
              "warning":"Evidence URLs are historical/static references only. An operator must check current organizer fixture details and manually approve separately."}
     (out/"fixture_verification_checklist_summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(summary,ensure_ascii=False))

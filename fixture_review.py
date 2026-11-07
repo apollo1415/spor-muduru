@@ -6,7 +6,7 @@ from pathlib import Path
 from odds_ev import utc_date
 from coverage_audit import normalize
 
-FIELDS=["event_id","provider_sport","provider_home","provider_away","provider_kickoff_utc","source_league","source_home","source_away","source_kickoff_istanbul","delta_minutes","team_name_match","source_pairs_for_event","provider_events_for_source","review_status","approved"]
+FIELDS=["event_id","provider_sport","provider_home","provider_away","provider_kickoff_utc","source_league","source_home","source_away","source_kickoff_istanbul","delta_minutes","team_name_match","source_pairs_for_event","provider_events_for_source","review_status","time_review","approved"]
 def review(fixtures,events,max_hours=24):
     pairs=[]
     for e in events:
@@ -33,6 +33,7 @@ def review(fixtures,events,max_hours=24):
                        "source_pairs_for_event":per_event[e["id"]],
                        "provider_events_for_source":per_fixture[key],
                        "review_status":"REVIEW_TIME_AND_LEAGUE" if unique else "AMBIGUOUS_MULTIPLE_PAIRS",
+                       "time_review":"SOURCE_TIMEZONE_UNVERIFIED" if delta>30 else "TIME_WITHIN_30M_UNVERIFIED",
                        "approved":"NO"})
     return sorted(output,key=lambda x:(x["event_id"],x["delta_minutes"]))
 def main():
@@ -47,7 +48,8 @@ def main():
     with (out/"fixture_review_queue.csv").open("w",newline="",encoding="utf-8-sig") as f:
         w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerows(rows)
     counts=dict(Counter(r["review_status"] for r in rows))
-    summary={"review_rows":len(rows),"counts":counts,"approved":0,
+    time_counts=dict(Counter(r["time_review"] for r in rows))
+    summary={"review_rows":len(rows),"counts":counts,"time_counts":time_counts,"approved":0,
              "warning":"Review queue only. League identity, event date and kickoff must be independently verified before manually adding an approved mapping."}
     (out/"fixture_review_summary.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps(summary,ensure_ascii=False))

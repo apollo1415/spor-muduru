@@ -20,6 +20,16 @@ jobs:
         run: python spor_muduru.py --out reports/today
       - name: Walk-forward backtest
         run: python backtest.py --out reports/backtest
+      - name: Out-of-sample calibration audit
+        run: python calibration.py --input reports/backtest/predictions.csv --out reports/calibration
+      - name: Upload calibration audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-calibration
+          path: reports/calibration/
+          retention-days: 30
+          if-no-files-found: warn
       - name: Upload backtest
         if: always()
         uses: actions/upload-artifact@v4

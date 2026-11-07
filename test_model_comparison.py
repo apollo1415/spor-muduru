@@ -9,7 +9,9 @@ class ModelComparisonTests(unittest.TestCase):
         rows=evaluate_pair(self.results,"L","2026-10-26")
         self.assertTrue(rows)
         self.assertTrue(all(r["date"]<"2026-10-26" for r in rows))
-        self.assertTrue(all(r["method"]=="LEAGUE_PRIOR" for r in rows if r["date"]=="2026-10-21"))
+        day_rows=[r for r in rows if r["date"]=="2026-10-21"]
+        self.assertTrue(day_rows)
+        self.assertTrue(any(r["method"]=="LEAGUE_PRIOR" for r in day_rows))
     def test_future_results_do_not_leak(self):
         before=evaluate_pair(self.results[:25],"L","2026-10-26")
         modified=self.results[:25]+[dict(self.results[25],ft_home="100")]

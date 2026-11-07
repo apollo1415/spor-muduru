@@ -47,7 +47,7 @@ def main():
                 with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"spor-muduru-discovery/0.1"}),timeout=25) as resp:
                     events=json.load(resp)
                 results.extend(candidates(matches,events,sport))
-                all_events.extend({"id":e.get("id"),"home_team":e.get("home_team"),"away_team":e.get("away_team"),"commence_time":e.get("commence_time")} for e in events)
+                all_events.extend({"sport_key":sport,"id":e.get("id"),"home_team":e.get("home_team"),"away_team":e.get("away_team"),"commence_time":e.get("commence_time")} for e in events)
                 statuses.append({"sport":sport,"status":"FETCHED","events":len(events)})
             except Exception:
                 # No exception text or URL: some HTTP errors include secret-bearing URLs.

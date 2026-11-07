@@ -65,12 +65,37 @@ def benchmark(rows, min_fit=100, min_validation=50, min_holdout=50):
         })
     stable_both_halves = (len(stability) == 2 and
                           all(x["improved_both"] is True for x in stability))
+    # Audit league slices only after freezing the globally selected method.
+    by_league = defaultdict(list)
+    for r in holdout:
+        by_league[r["league"]].append((float(r["probability"]), int(r["outcome"])))
+    league_audit = []
+    for league, pairs in sorted(by_league.items()):
+        n = len(pairs)
+        baseline = scored(pairs, methods["identity"]) if n >= 30 else None
+        adjusted = scored(pairs, methods[chosen]) if n >= 30 else None
+        league_audit.append({
+            "league": league, "n": n,
+            "status": "EVALUATED" if n >= 30 else "INSUFFICIENT_SAMPLE",
+            "baseline": baseline, "selected": adjusted,
+            "improved_both": (adjusted["brier"] < baseline["brier"] and
+                              adjusted["log_loss"] < baseline["log_loss"]) if n >= 30 else None,
+        })
+    evaluated_leagues = [x for x in league_audit if x["status"] == "EVALUATED"]
+    league_consistency = {
+        "evaluated": len(evaluated_leagues),
+        "improved_both": sum(x["improved_both"] is True for x in evaluated_leagues),
+        "not_improved_both": sum(x["improved_both"] is False for x in evaluated_leagues),
+        "insufficient_sample": len(league_audit) - len(evaluated_leagues),
+        "all_evaluated_improved": bool(evaluated_leagues) and all(x["improved_both"] for x in evaluated_leagues),
+    }
     return {"status": "EVALUATED", "fit_n": len(fit), "validation_n": len(val),
             "holdout_n": len(test), "validation_start": first, "holdout_start": second,
             "selected_on_validation": chosen, "validation_scores": scores,
             "holdout_baseline": base, "holdout_selected": result,
             "holdout_improved_both": result["brier"] < base["brier"] and result["log_loss"] < base["log_loss"],
             "holdout_segments": stability, "stable_both_halves": stable_both_halves,
+            "league_audit": league_audit, "league_consistency": league_consistency,
             "deployment": "RESEARCH_ONLY"}
 
 def main():
@@ -92,7 +117,8 @@ def main():
     out.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps({"markets": {k: {"status": v["status"], "selected": v.get("selected_on_validation"),
                                       "holdout_improved_both": v.get("holdout_improved_both"),
-                                      "stable_both_halves": v.get("stable_both_halves")} for k, v in results.items()},
+                                      "stable_both_halves": v.get("stable_both_halves"),
+                                      "league_consistency": v.get("league_consistency")} for k, v in results.items()},
                       "approved_for_betting": 0}))
 
 if __name__ == "__main__":

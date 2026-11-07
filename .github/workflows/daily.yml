@@ -28,6 +28,8 @@ jobs:
         run: python horizon_coverage.py --events reports/odds/provider_events.json --out reports/odds --days 14
       - name: Model upcoming 14-day fixtures (research only)
         run: python horizon_models.py --fixtures reports/odds/horizon_fixtures.json --out reports/horizon
+      - name: Calculate isolated league-prior research fallbacks
+        run: python league_prior_fallback.py --models reports/horizon/matches.csv --out reports/horizon
       - name: Build manual fixture review queue
         run: python fixture_review.py --fixtures reports/odds/horizon_fixtures.json --events reports/odds/provider_events.json --out reports/odds
       - name: Reconcile forward models with provider fixture review queue

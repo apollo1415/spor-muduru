@@ -22,6 +22,8 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python odds_discovery.py --matches reports/today/matches.csv --out reports/odds
+      - name: Audit exact-team fixture coverage and kickoff offsets
+        run: python coverage_audit.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Audit bookmaker fixture mismatches
         run: python matching_diagnostics.py --matches reports/today/matches.csv --events reports/odds/provider_events.json --out reports/odds
       - name: Fetch approved bookmaker odds if configured

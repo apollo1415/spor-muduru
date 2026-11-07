@@ -53,7 +53,7 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python odds_provider.py --out reports/odds
       - name: Research-only odds and EV
-        run: python odds_ev.py --matches reports/today/matches.csv --odds reports/odds/verified_odds.csv --out reports/odds
+        run: python odds_ev.py --matches reports/horizon/matches.csv --odds reports/odds/verified_odds.csv --out reports/odds
       - name: Upload research EV report
         if: always()
         uses: actions/upload-artifact@v4

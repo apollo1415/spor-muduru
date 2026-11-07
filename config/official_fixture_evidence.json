@@ -1,0 +1,34 @@
+{
+  "verified_on": "2026-11-07",
+  "purpose": "Independent organizer fixture evidence only; never authorizes odds mapping",
+  "fixtures": [
+    {
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "league": "soccer_epl",
+      "kickoff_utc": "2026-11-08T14:00:00Z",
+      "source_url": "https://www.premierleague.com/en/news/4725574"
+    },
+    {
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "league": "soccer_epl",
+      "kickoff_utc": "2026-11-08T14:00:00Z",
+      "source_url": "https://www.premierleague.com/en/news/4725574"
+    },
+    {
+      "home": "Alanyaspor",
+      "away": "Trabzonspor",
+      "league": "soccer_turkey_super_league",
+      "kickoff_utc": "2026-11-08T15:30:00Z",
+      "source_url": "https://www.tff.org/Default.aspx?macId=317876&pageId=29"
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "league": "soccer_epl",
+      "kickoff_utc": "2026-11-21T15:00:00Z",
+      "source_url": "https://www.premierleague.com/en/news/4725574"
+    }
+  ]
+}

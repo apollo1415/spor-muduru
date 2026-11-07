@@ -62,6 +62,8 @@ jobs:
           if-no-files-found: warn
       - name: Walk-forward backtest
         run: python backtest.py --out reports/backtest
+      - name: Compare team model against league prior on historical matches
+        run: python model_comparison.py --out reports/model-comparison
       - name: Out-of-sample calibration audit
         run: python calibration.py --input reports/backtest/predictions.csv --out reports/calibration
       - name: League and time stability audit
@@ -90,6 +92,14 @@ jobs:
         with:
           name: spor-muduru-calibration
           path: reports/calibration/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Upload model comparison
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-model-comparison
+          path: reports/model-comparison/
           retention-days: 30
           if-no-files-found: warn
       - name: Upload backtest

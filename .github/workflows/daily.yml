@@ -54,14 +54,6 @@ jobs:
         run: python odds_provider.py --out reports/odds
       - name: Research-only odds and EV
         run: python odds_ev.py --matches reports/horizon/matches.csv --odds reports/odds/verified_odds.csv --out reports/odds
-      - name: Upload research EV report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: spor-muduru-odds-ev
-          path: reports/odds/
-          retention-days: 30
-          if-no-files-found: warn
       - name: Walk-forward backtest
         run: python backtest.py --out reports/backtest
       - name: Compare team model against league prior on historical matches
@@ -74,6 +66,14 @@ jobs:
         run: python stability.py --input reports/backtest/predictions.csv --out reports/stability
       - name: Cross-check theoretical EV against calibration and retrospective quality
         run: python ev_readiness_audit.py --calibration reports/calibration/summary.json --quality reports/model-comparison/market_quality_gate.json --ev reports/odds/research_ev.csv --out reports/odds/ev_readiness_audit.json
+      - name: Upload research EV report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-odds-ev
+          path: reports/odds/
+          retention-days: 30
+          if-no-files-found: warn
       - name: Flag deteriorating league-market models
         run: python triage.py --input reports/stability/summary.json --out reports/triage
       - name: Upload triage report

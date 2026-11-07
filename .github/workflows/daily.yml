@@ -18,6 +18,10 @@ jobs:
         run: python -m unittest discover -v
       - name: Collect and analyse
         run: python spor_muduru.py --out reports/today
+      - name: Discover bookmaker fixture candidates (manual review required)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python odds_discovery.py --matches reports/today/matches.csv --out reports/odds
       - name: Fetch approved bookmaker odds if configured
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}

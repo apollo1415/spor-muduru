@@ -10,6 +10,16 @@ class ProviderTests(unittest.TestCase):
     def test_four_markets(self):
         rows,errors=transform([self.event],self.mapping,"2026-11-09T13:00:00Z")
         self.assertEqual(len(rows),4);self.assertEqual(errors,[])
+    def test_duplicate_bookmaker_quotes_choose_latest(self):
+        import copy
+        other=copy.deepcopy(self.event["bookmakers"][0]);other["key"]="book2"
+        other["last_update"]="2026-11-09T12:30:00Z"
+        other["markets"][0]["outcomes"][0]["price"]=2.4
+        self.event["bookmakers"].append(other)
+        rows,errors=transform([self.event],self.mapping,"2026-11-09T13:00:00Z")
+        self.assertEqual(len(rows),4)
+        self.assertEqual([r for r in rows if r["market"]=="home_win"][0]["decimal_odds"],2.4)
+        self.assertEqual(errors,[])
     def test_unmapped_is_skipped(self):
         self.assertEqual(transform([self.event],{},"2026-11-09T13:00:00Z")[0],[])
     def test_wrong_team_rejected(self):

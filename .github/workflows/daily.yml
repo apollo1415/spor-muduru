@@ -72,6 +72,8 @@ jobs:
         run: python calibration.py --input reports/backtest/predictions.csv --out reports/calibration
       - name: League and time stability audit
         run: python stability.py --input reports/backtest/predictions.csv --out reports/stability
+      - name: Cross-check theoretical EV against calibration and retrospective quality
+        run: python ev_readiness_audit.py --calibration reports/calibration/summary.json --quality reports/model-comparison/market_quality_gate.json --ev reports/odds/research_ev.csv --out reports/odds/ev_readiness_audit.json
       - name: Flag deteriorating league-market models
         run: python triage.py --input reports/stability/summary.json --out reports/triage
       - name: Upload triage report

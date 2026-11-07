@@ -12,7 +12,7 @@ def combine(review,fallbacks):
         index.setdefault(key,[]).append(f)
     rows=[]
     for r in review:
-        key=(r.get("source_league"),r.get("provider_home"),r.get("provider_away"),r.get("kickoff_istanbul"))
+        key=(r.get("source_league"),r.get("source_home"),r.get("source_away"),r.get("kickoff_istanbul"))
         matches=index.get(key,[])
         f=matches[0] if len(matches)==1 else {}
         standard=r.get("reason")=="MODEL_AVAILABLE_MANUAL_APPROVAL_REQUIRED"

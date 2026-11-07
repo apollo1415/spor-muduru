@@ -28,6 +28,16 @@ jobs:
         run: python horizon_coverage.py --events reports/odds/provider_events.json --out reports/odds --days 14
       - name: Model upcoming 14-day fixtures (research only)
         run: python horizon_models.py --fixtures reports/odds/horizon_fixtures.json --out reports/horizon
+      - name: Freeze timestamped pre-kickoff research forecasts
+        run: python forward_snapshot.py --input reports/horizon/matches.csv --out reports/forward-snapshots
+      - name: Upload pre-kickoff forecast snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-forward-snapshot
+          path: reports/forward-snapshots/
+          retention-days: 90
+          if-no-files-found: warn
       - name: Calculate isolated league-prior research fallbacks
         run: python league_prior_fallback.py --models reports/horizon/matches.csv --out reports/horizon
       - name: Build manual fixture review queue

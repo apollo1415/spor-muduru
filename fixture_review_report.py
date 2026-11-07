@@ -35,5 +35,11 @@ def main():
     with open(a.queue,encoding="utf-8-sig",newline="") as f:rows=list(csv.DictReader(f))
     output=Path(a.out);output.parent.mkdir(parents=True,exist_ok=True)
     output.write_text(render(rows),encoding="utf-8")
-    print(json.dumps({"report":str(output),"candidates":len(rows),"approved":0,"leagues":dict(Counter(r["source_league"] for r in rows))},ensure_ascii=False))
+    print(json.dumps({"report":str(output),"candidates":len(rows),"approved":0,"leagues":dict(Counter(r["source_league"] for r in rows)),
+        "fixtures":[{"provider_home":r["provider_home"],"provider_away":r["provider_away"],
+                     "provider_sport":r["provider_sport"],"source_league":r["source_league"],
+                     "provider_kickoff_utc":r["provider_kickoff_utc"],
+                     "source_kickoff_istanbul":r["source_kickoff_istanbul"],
+                     "delta_minutes":r["delta_minutes"],"league_review":r["league_review"],
+                     "time_review":r["time_review"],"approved":"NO"} for r in rows]},ensure_ascii=False))
 if __name__=="__main__":main()

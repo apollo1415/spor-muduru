@@ -18,6 +18,16 @@ jobs:
         run: python -m unittest discover -v
       - name: Collect and analyse
         run: python spor_muduru.py --out reports/today
+      - name: Walk-forward backtest
+        run: python backtest.py --out reports/backtest
+      - name: Upload backtest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-backtest
+          path: reports/backtest/
+          retention-days: 30
+          if-no-files-found: warn
       - name: Upload reports
         if: always()
         uses: actions/upload-artifact@v4

@@ -27,7 +27,7 @@ def apply_bins(p,fit):
 
 def audit(rows,train_fraction=.6,min_train=100,min_test=50):
     """Split by distinct date: same-day events never cross the split."""
-    rows=sorted(rows,key=lambda r:(r["date"],r["league"],r["home"],r["away"]))
+    rows=sorted(rows,key=lambda r:(r.get("date",""),r.get("league",""),r.get("home",""),r.get("away","")))
     days=sorted({r["date"] for r in rows})
     if len(days)<2:return {"status":"INSUFFICIENT_DATES","n":len(rows)}
     cut=max(1,min(len(days)-1,int(len(days)*train_fraction)))

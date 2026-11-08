@@ -71,7 +71,7 @@ class FullFixtureResearchTests(unittest.TestCase):
         basic = fixture()
         model = fixture(decision="MODEL_ONLY_NO_ODDS", p_home=".55",
                         p_draw=".25", p_away=".20")
-        rows, summary = build_rows([basic], [model], [], [], DAY, NOW)
+        rows, summary = build_rows([basic], [model], [], [], [], DAY, NOW)
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0]["MS tahmini"], "1")
         self.assertEqual(summary["source_rows_unique_by_exact_identity"], 1)
@@ -81,7 +81,7 @@ class FullFixtureResearchTests(unittest.TestCase):
         fallback = fixture(baseline_status="LEAGUE_PRIOR_RESEARCH_ONLY",
                            p_home=".42", p_draw=".30", p_away=".28",
                            league_sample="32")
-        rows, summary = build_rows([missing], [], [], [fallback], DAY, NOW)
+        rows, summary = build_rows([missing], [], [], [fallback], [], DAY, NOW)
         self.assertEqual(rows[0]["Model turu"], "LIG_ORTALAMASI_TAKIMA_OZEL_DEGIL")
         self.assertEqual(rows[0]["Güven %"], 42.0)
         self.assertEqual(summary["rows_with_experimental_1x2"], 1)

@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   pull_request:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 4 * * *'  # 07:00 Europe/Istanbul (UTC+3 year-round)
 permissions:
   contents: read
   actions: read

@@ -1,7 +1,9 @@
 import unittest
 from datetime import datetime, timezone
+from urllib.error import HTTPError
 
-from odds_discovery import candidates, daily_inventory, event_url, provider_sports, soccer_sports
+from odds_discovery import (candidates, daily_inventory, event_url, fetch_events,
+                            provider_sports, safe_error_status, soccer_sports)
 
 
 class DiscoveryTests(unittest.TestCase):
@@ -52,6 +54,32 @@ class DiscoveryTests(unittest.TestCase):
         self.assertIn("/events?", url)
         self.assertNotIn("/odds?", url)
         self.assertIn("commenceTimeFrom=2026-11-08T00%3A00%3A00Z", url)
+
+    def test_event_endpoint_drops_microseconds(self):
+        start = datetime(2026, 11, 8, 1, 2, 3, 456789, tzinfo=timezone.utc)
+        end = datetime(2026, 11, 22, 1, 2, 3, 456789, tzinfo=timezone.utc)
+        url = event_url("soccer_epl", "secret", start, end)
+        self.assertNotIn("456789", url)
+
+    def test_events_retry_without_optional_window_on_422(self):
+        seen = []
+        def loader(url):
+            seen.append(url)
+            if len(seen) == 1:
+                raise HTTPError(url, 422, "invalid optional window", {}, None)
+            return [{"id": "x"}]
+        start = datetime(2026, 11, 8, tzinfo=timezone.utc)
+        end = datetime(2026, 11, 22, tzinfo=timezone.utc)
+        events, mode = fetch_events("soccer_epl", "secret", start, end, loader)
+        self.assertEqual(events, [{"id": "x"}])
+        self.assertEqual(mode, "UNFILTERED_FALLBACK")
+        self.assertIn("commenceTimeFrom", seen[0])
+        self.assertNotIn("commenceTimeFrom", seen[1])
+
+    def test_safe_error_status_never_contains_url(self):
+        error = HTTPError("https://example.test/?apiKey=secret", 401, "bad key", {}, None)
+        self.assertEqual(safe_error_status(error), "FETCH_FAILED_HTTP_401")
+        error.close()
 
     def test_daily_inventory_is_separate_and_unverified(self):
         rows = daily_inventory(self.events + [self.events[0]], "2026-11-09")

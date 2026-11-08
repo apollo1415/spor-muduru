@@ -21,12 +21,12 @@ jobs:
         run: python -m unittest discover -v
       - name: Collect and analyse
         run: python spor_muduru.py --out reports/today
-      - name: Audit daily fixture inventory and exclusions
-        run: python daily_inventory_audit.py --report-dir reports/today
-      - name: Discover bookmaker fixture candidates (manual review required)
+      - name: Discover broad provider fixture inventory (unverified; no odds)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python odds_discovery.py --matches reports/today/matches.csv --out reports/odds
+        run: python odds_discovery.py --matches reports/today/matches.csv --out reports/odds --daily-out reports/today
+      - name: Audit daily fixture inventory and exclusions
+        run: python daily_inventory_audit.py --report-dir reports/today
       - name: Audit 14-day source fixture horizon
         run: python horizon_coverage.py --events reports/odds/provider_events.json --out reports/odds --days 14
       - name: Model upcoming 14-day fixtures (research only)

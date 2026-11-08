@@ -50,6 +50,16 @@ jobs:
         run: python forward_model_review.py --queue reports/odds/fixture_review_queue.csv --models reports/horizon/matches.csv --out reports/odds
       - name: Combine standard and league-prior research coverage
         run: python combined_model_review.py --review reports/odds/forward_model_review.csv --fallback reports/horizon/league_prior_fallback.csv --out reports/odds
+      - name: Build all-visible daily fixture research table (unapproved sources separate)
+        run: python full_fixture_report.py --date "$(TZ=Europe/Istanbul date +%F)" --out reports/full-fixture
+      - name: Upload all-visible fixture research table
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spor-muduru-full-fixture-research
+          path: reports/full-fixture/
+          retention-days: 30
+          if-no-files-found: warn
       - name: Render readable fixture identity review
         run: python fixture_review_report.py --queue reports/odds/fixture_review_queue.csv --out reports/odds/fixture_review_report.md
       - name: Audit candidate fixtures against organizer evidence snapshot

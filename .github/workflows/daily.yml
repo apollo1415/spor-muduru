@@ -1,6 +1,7 @@
 name: SPOR MUDURU daily free-data inventory
 on:
   workflow_dispatch:
+  pull_request:
   schedule:
     - cron: '0 5 * * *'
 permissions:

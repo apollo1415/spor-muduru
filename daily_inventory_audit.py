@@ -6,14 +6,18 @@ import json
 from collections import Counter
 from pathlib import Path
 
+
 def read_csv(path):
     with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
+
 
 def audit(report_dir):
     report_dir = Path(report_dir)
     matches = read_csv(report_dir / "matches.csv")
     coverage = read_csv(report_dir / "coverage.csv")
+    provider_path = report_dir / "provider_fixture_inventory.csv"
+    provider_matches = read_csv(provider_path) if provider_path.exists() else []
     summary = json.loads((report_dir / "summary.json").read_text(encoding="utf-8"))
     decisions = Counter(row.get("decision") or "UNCLASSIFIED" for row in matches)
     league_counts = Counter(row.get("league") or "UNKNOWN" for row in matches)
@@ -30,6 +34,9 @@ def audit(report_dir):
         "leagues_failed": len(source_errors),
         "failed_leagues": source_errors,
         "source_fixtures_today": len(matches),
+        "provider_fixtures_today_unverified": len(provider_matches),
+        "visible_fixture_rows_not_deduplicated": len(matches) + len(provider_matches),
+        "provider_inventory_present": provider_path.exists(),
         "future_or_unresolved_fixtures": eligible,
         "modelled_fixtures": modelled,
         "not_modelled_future_fixtures": max(0, eligible - modelled),
@@ -39,12 +46,14 @@ def audit(report_dir):
         "real_odds_verified": False,
         "ev_verified": False,
         "limitations": [
-            "Only source-listed fixtures are counted; missing official coupon matches cannot be inferred.",
+            "Only source-listed and provider-listed fixtures are counted; missing official coupon matches cannot be inferred.",
+            "Provider and source rows are reported separately and are not identity-deduplicated without approval.",
             "Fixture identity, real odds and EV require independent evidence.",
             "Successful workflow execution is not proof of complete match coverage."
         ],
     }
     return result
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -55,5 +64,7 @@ def main():
     (directory / "inventory_audit.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     main()

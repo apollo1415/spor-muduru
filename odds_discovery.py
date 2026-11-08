@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import os
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -81,13 +82,38 @@ def provider_sports(api_key, requested=None, loader=fetch_json):
 
 
 def event_url(sport, api_key, start, end):
-    params = urllib.parse.urlencode({
+    values = {
         "apiKey": api_key,
         "dateFormat": "iso",
-        "commenceTimeFrom": start.astimezone(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "commenceTimeTo": end.astimezone(timezone.utc).isoformat().replace("+00:00", "Z"),
-    })
+    }
+    if start is not None and end is not None:
+        values.update({
+            "commenceTimeFrom": start.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+            "commenceTimeTo": end.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+        })
+    params = urllib.parse.urlencode(values)
     return "https://api.the-odds-api.com/v4/sports/" + urllib.parse.quote(sport, safe="") + "/events?" + params
+
+
+def fetch_events(sport, api_key, start, end, loader=fetch_json):
+    """Retry without provider-side dates when a provider rejects the optional time window."""
+    try:
+        return loader(event_url(sport, api_key, start, end)), "FILTERED"
+    except urllib.error.HTTPError as exc:
+        code = exc.code
+        exc.close()
+        if code not in (400, 404, 422):
+            raise
+    return loader(event_url(sport, api_key, None, None)), "UNFILTERED_FALLBACK"
+
+
+def safe_error_status(exc):
+    """Report only a coarse error class; never include a secret-bearing request URL."""
+    if isinstance(exc, urllib.error.HTTPError):
+        return "FETCH_FAILED_HTTP_" + str(exc.code)
+    if isinstance(exc, urllib.error.URLError):
+        return "FETCH_FAILED_URL_ERROR"
+    return "FETCH_FAILED_" + type(exc).__name__.upper()
 
 
 def daily_inventory(events, day):
@@ -164,14 +190,15 @@ def main():
             selection = "SPORT_LIST_FETCH_FAILED"
         for sport in sports:
             try:
-                events = fetch_json(event_url(sport, key, start, end))
+                events, fetch_mode = fetch_events(sport, key, start, end)
                 normalized = [{**event, "sport_key": event.get("sport_key") or sport} for event in events]
                 results.extend(candidates(matches, normalized, sport))
                 all_events.extend(normalized)
-                statuses.append({"sport": sport, "status": "EVENTS_FETCHED", "events": len(normalized)})
-            except Exception:
+                statuses.append({"sport": sport, "status": "EVENTS_FETCHED", "fetch_mode": fetch_mode,
+                                 "events": len(normalized)})
+            except Exception as exc:
                 # Do not expose exception text: HTTP errors can include a secret-bearing URL.
-                statuses.append({"sport": sport, "status": "FETCH_FAILED", "events": 0})
+                statuses.append({"sport": sport, "status": safe_error_status(exc), "events": 0})
 
     daily_rows = daily_inventory(all_events, args.date)
     (out / "provider_events.json").write_text(json.dumps(all_events, ensure_ascii=False), encoding="utf-8")

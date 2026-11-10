@@ -1,0 +1,103 @@
+{
+ "yontem": "yuruyen pencere, yalniz onceki gunler; taban = ligin o ana kadarki sikligi",
+ "K": 30.0,
+ "uretim": "2026-11-10T13:27+03:00",
+ "pazarlar": {
+  "IY_UST_0.5": {
+   "n": 1062,
+   "brier_model": 0.1948,
+   "brier_taban": 0.1942,
+   "beceri": -0.0031,
+   "gozlenen": 0.7382,
+   "ort_tahmin": 0.7117
+  },
+  "IY_UST_1.5": {
+   "n": 1062,
+   "brier_model": 0.2303,
+   "brier_taban": 0.2326,
+   "beceri": 0.0101,
+   "gozlenen": 0.3663,
+   "ort_tahmin": 0.3768
+  },
+  "KG_VAR": {
+   "n": 4999,
+   "brier_model": 0.2444,
+   "brier_taban": 0.2446,
+   "beceri": 0.0009,
+   "gozlenen": 0.5469,
+   "ort_tahmin": 0.5354
+  },
+  "MS1": {
+   "n": 4999,
+   "brier_model": 0.2375,
+   "brier_taban": 0.2496,
+   "beceri": 0.0483,
+   "gozlenen": 0.4431,
+   "ort_tahmin": 0.4367
+  },
+  "MS2": {
+   "n": 4999,
+   "brier_model": 0.2041,
+   "brier_taban": 0.2121,
+   "beceri": 0.0375,
+   "gozlenen": 0.3035,
+   "ort_tahmin": 0.2963
+  },
+  "MSX": {
+   "n": 4999,
+   "brier_model": 0.1881,
+   "brier_taban": 0.1899,
+   "beceri": 0.009,
+   "gozlenen": 0.2535,
+   "ort_tahmin": 0.267
+  },
+  "UST_2.5": {
+   "n": 4999,
+   "brier_model": 0.2409,
+   "brier_taban": 0.2416,
+   "beceri": 0.0029,
+   "gozlenen": 0.5289,
+   "ort_tahmin": 0.5079
+  },
+  "isabet_UST_7.5": {
+   "n": 994,
+   "brier_model": 0.213,
+   "brier_taban": 0.213,
+   "beceri": 0.0,
+   "gozlenen": 0.6801,
+   "ort_tahmin": 0.65
+  },
+  "iy_korner_UST_4.5": {
+   "n": 686,
+   "brier_model": 0.2468,
+   "brier_taban": 0.2506,
+   "beceri": 0.0152,
+   "gozlenen": 0.481,
+   "ort_tahmin": 0.4842
+  },
+  "kart_UST_4.5": {
+   "n": 994,
+   "brier_model": 0.2412,
+   "brier_taban": 0.2421,
+   "beceri": 0.0033,
+   "gozlenen": 0.4276,
+   "ort_tahmin": 0.3728
+  },
+  "korner_UST_9.5": {
+   "n": 994,
+   "brier_model": 0.2485,
+   "brier_taban": 0.2505,
+   "beceri": 0.0081,
+   "gozlenen": 0.5262,
+   "ort_tahmin": 0.5352
+  },
+  "sut_UST_23.5": {
+   "n": 994,
+   "brier_model": 0.1647,
+   "brier_taban": 0.1675,
+   "beceri": 0.017,
+   "gozlenen": 0.5956,
+   "ort_tahmin": 0.5938
+  }
+ }
+}

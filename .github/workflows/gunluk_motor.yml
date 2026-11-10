@@ -1,0 +1,32 @@
+name: SPOR MUDURU gunluk motor ve tahmin defteri
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 3 * * *'  # 06:40 Europe/Istanbul; Claude gorevi 07:07'de okur
+permissions:
+  contents: write
+concurrency:
+  group: gunluk-motor
+  cancel-in-progress: false
+jobs:
+  gunluk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Testler
+        run: python -m unittest test_gunluk_motor -v
+      - name: Acik veriyi al
+        run: git clone --depth 1 -q https://github.com/oladeeayo/open-matchday /tmp/open-matchday
+      - name: Gunluk paket, backtest ve defter
+        run: python gunluk_motor.py gunluk --data /tmp/open-matchday --date "$(TZ=Europe/Istanbul date +%F)"
+      - name: Sonuclari depoya yaz
+        run: |
+          git config user.name "spor-muduru-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add raporlar defter
+          git diff --cached --quiet || git commit -m "Gunluk paket ve defter $(TZ=Europe/Istanbul date +%F)"
+          git push

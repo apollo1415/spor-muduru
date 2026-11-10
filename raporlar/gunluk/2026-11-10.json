@@ -1,0 +1,1342 @@
+{
+ "tarih": "2026-11-10",
+ "kesit": "2026-11-10T13:27+03:00",
+ "kaynak": "oladeeayo/open-matchday",
+ "envanter": 17,
+ "modellenen": 11,
+ "hesaplanamadi": 6,
+ "baslamis": 0,
+ "maclar": [
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "21:00",
+   "ev": "Anaitasuna",
+   "dep": "Alavés",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "21:00",
+   "ev": "CD Pamplona",
+   "dep": "Eibar",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:00",
+   "ev": "Amorebieta",
+   "dep": "UD Logroñés",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:00",
+   "ev": "Mijas Las Lagunas",
+   "dep": "Real Jaen CF",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:00",
+   "ev": "Trival Valderas",
+   "dep": "Leganés",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "23:00",
+   "ev": "Tavernes de la Valldigna",
+   "dep": "Valencia",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ENG_6_national-league-north",
+   "saat": "?",
+   "ev": "Darlington",
+   "dep": "Oxford City",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.226,
+    "lam_dep": 1.487,
+    "n_ev": 4,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.3029,
+     "MSX": 0.2742,
+     "MS2": 0.4228,
+     "CS_1X": 0.5772,
+     "CS_12": 0.7258,
+     "CS_X2": 0.6971,
+     "KG_VAR": 0.5566,
+     "KG_YOK": 0.4434,
+     "UST_0.5": 0.924,
+     "ALT_0.5": 0.076,
+     "UST_1.5": 0.7634,
+     "ALT_1.5": 0.2366,
+     "UST_2.5": 0.5097,
+     "ALT_2.5": 0.4903,
+     "UST_3.5": 0.2889,
+     "ALT_3.5": 0.7111,
+     "UST_4.5": 0.1391,
+     "ALT_4.5": 0.8609
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1306
+     ],
+     [
+      "1-2",
+      0.0899
+     ],
+     [
+      "0-1",
+      0.089
+     ],
+     [
+      "0-0",
+      0.076
+     ],
+     [
+      "2-1",
+      0.0741
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2366,
+     "2-3": 0.4746,
+     "4+": 0.2889
+    },
+    "devre": {
+     "IY1": 0.247,
+     "IYX": 0.4317,
+     "IY2": 0.3212,
+     "IY_UST_0.5": 0.6964,
+     "IY_UST_1.5": 0.3537
+    },
+    "iyms": {
+     "2/2": 0.2478,
+     "1/1": 0.1694,
+     "X/X": 0.1688,
+     "X/2": 0.1518,
+     "X/1": 0.1153,
+     "2/X": 0.0529,
+     "1/X": 0.0525,
+     "1/2": 0.0232,
+     "2/1": 0.0182
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS2",
+     "olasilik": 42.3,
+     "n": 4,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 76.3,
+     "n": 4,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 13.1,
+     "n": 4,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 69.6,
+     "n": 4,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_6_national-league-north",
+   "saat": "?",
+   "ev": "Morecambe",
+   "dep": "Hereford",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.642,
+    "lam_dep": 1.103,
+    "n_ev": 4,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.4899,
+     "MSX": 0.2638,
+     "MS2": 0.2463,
+     "CS_1X": 0.7537,
+     "CS_12": 0.7362,
+     "CS_X2": 0.5101,
+     "KG_VAR": 0.5482,
+     "KG_YOK": 0.4518,
+     "UST_0.5": 0.9265,
+     "ALT_0.5": 0.0735,
+     "UST_1.5": 0.7688,
+     "ALT_1.5": 0.2312,
+     "UST_2.5": 0.5174,
+     "ALT_2.5": 0.4826,
+     "UST_3.5": 0.296,
+     "ALT_3.5": 0.704,
+     "UST_4.5": 0.1439,
+     "ALT_4.5": 0.8561
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1257
+     ],
+     [
+      "1-0",
+      0.0962
+     ],
+     [
+      "2-1",
+      0.0955
+     ],
+     [
+      "2-0",
+      0.0866
+     ],
+     [
+      "0-0",
+      0.0735
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2312,
+     "2-3": 0.4728,
+     "4+": 0.296
+    },
+    "devre": {
+     "IY1": 0.3637,
+     "IYX": 0.4246,
+     "IY2": 0.2117,
+     "IY_UST_0.5": 0.7008,
+     "IY_UST_1.5": 0.3587
+    },
+    "iyms": {
+     "1/1": 0.295,
+     "X/1": 0.1697,
+     "X/X": 0.1627,
+     "2/2": 0.1346,
+     "X/2": 0.0963,
+     "1/X": 0.0509,
+     "2/X": 0.0502,
+     "2/1": 0.0253,
+     "1/2": 0.0153
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 49.0,
+     "n": 4,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 76.9,
+     "n": 4,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 12.6,
+     "n": 4,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 70.1,
+     "n": 4,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_6_national-league-north",
+   "saat": "?",
+   "ev": "Scarborough",
+   "dep": "Marine",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.526,
+    "lam_dep": 1.265,
+    "n_ev": 4,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.4244,
+     "MSX": 0.2698,
+     "MS2": 0.3058,
+     "CS_1X": 0.6942,
+     "CS_12": 0.7302,
+     "CS_X2": 0.5756,
+     "KG_VAR": 0.5712,
+     "KG_YOK": 0.4288,
+     "UST_0.5": 0.9292,
+     "ALT_0.5": 0.0708,
+     "UST_1.5": 0.7769,
+     "ALT_1.5": 0.2231,
+     "UST_2.5": 0.5284,
+     "ALT_2.5": 0.4716,
+     "UST_3.5": 0.306,
+     "ALT_3.5": 0.694,
+     "UST_4.5": 0.1509,
+     "ALT_4.5": 0.8491
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1279
+     ],
+     [
+      "2-1",
+      0.0904
+     ],
+     [
+      "1-0",
+      0.0842
+     ],
+     [
+      "1-2",
+      0.0749
+     ],
+     [
+      "2-0",
+      0.0715
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2231,
+     "2-3": 0.4708,
+     "4+": 0.306
+    },
+    "devre": {
+     "IY1": 0.3242,
+     "IYX": 0.4253,
+     "IY2": 0.2505,
+     "IY_UST_0.5": 0.7063,
+     "IY_UST_1.5": 0.3664
+    },
+    "iyms": {
+     "1/1": 0.2497,
+     "2/2": 0.1717,
+     "X/X": 0.1634,
+     "X/1": 0.1507,
+     "X/2": 0.1151,
+     "1/X": 0.0534,
+     "2/X": 0.053,
+     "2/1": 0.0241,
+     "1/2": 0.019
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 42.4,
+     "n": 4,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 77.7,
+     "n": 4,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 12.8,
+     "n": 4,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 70.6,
+     "n": 4,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_6_national-league-south",
+   "saat": "?",
+   "ev": "Hemel Hempstead",
+   "dep": "Torquay",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.253,
+    "lam_dep": 1.787,
+    "n_ev": 4,
+    "n_dep": 4,
+    "gol": {
+     "MS1": 0.2599,
+     "MSX": 0.2493,
+     "MS2": 0.4909,
+     "CS_1X": 0.5091,
+     "CS_12": 0.7507,
+     "CS_X2": 0.7401,
+     "KG_VAR": 0.6032,
+     "KG_YOK": 0.3968,
+     "UST_0.5": 0.9436,
+     "ALT_0.5": 0.0564,
+     "UST_1.5": 0.8153,
+     "ALT_1.5": 0.1847,
+     "UST_2.5": 0.5856,
+     "ALT_2.5": 0.4144,
+     "UST_3.5": 0.3616,
+     "ALT_3.5": 0.6384,
+     "UST_4.5": 0.1914,
+     "ALT_4.5": 0.8086
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1157
+     ],
+     [
+      "1-2",
+      0.0957
+     ],
+     [
+      "0-1",
+      0.0769
+     ],
+     [
+      "0-2",
+      0.0764
+     ],
+     [
+      "2-1",
+      0.0671
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1847,
+     "2-3": 0.4536,
+     "4+": 0.3616
+    },
+    "devre": {
+     "IY1": 0.2262,
+     "IYX": 0.4023,
+     "IY2": 0.3715,
+     "IY_UST_0.5": 0.7361,
+     "IY_UST_1.5": 0.4062
+    },
+    "iyms": {
+     "2/2": 0.2987,
+     "X/2": 0.1636,
+     "X/X": 0.1448,
+     "1/1": 0.1444,
+     "X/1": 0.0973,
+     "2/X": 0.0526,
+     "1/X": 0.0519,
+     "1/2": 0.0286,
+     "2/1": 0.0181
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS2",
+     "olasilik": 49.1,
+     "n": 4,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 81.5,
+     "n": 4,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 11.6,
+     "n": 4,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 73.6,
+     "n": 4,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_6_national-league-south",
+   "saat": "?",
+   "ev": "Salisbury",
+   "dep": "Braintree",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 2.277,
+    "lam_dep": 1.024,
+    "n_ev": 3,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.6485,
+     "MSX": 0.2016,
+     "MS2": 0.1499,
+     "CS_1X": 0.8501,
+     "CS_12": 0.7984,
+     "CS_X2": 0.3515,
+     "KG_VAR": 0.582,
+     "KG_YOK": 0.418,
+     "UST_0.5": 0.9563,
+     "ALT_0.5": 0.0437,
+     "UST_1.5": 0.8484,
+     "ALT_1.5": 0.1516,
+     "UST_2.5": 0.6408,
+     "ALT_2.5": 0.3592,
+     "UST_3.5": 0.4199,
+     "ALT_3.5": 0.5801,
+     "UST_4.5": 0.2376,
+     "ALT_4.5": 0.7624
+    },
+    "skorlar": [
+     [
+      "2-1",
+      0.0978
+     ],
+     [
+      "2-0",
+      0.0955
+     ],
+     [
+      "1-1",
+      0.0928
+     ],
+     [
+      "1-0",
+      0.077
+     ],
+     [
+      "3-1",
+      0.0742
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1516,
+     "2-3": 0.4285,
+     "4+": 0.4199
+    },
+    "devre": {
+     "IY1": 0.4812,
+     "IYX": 0.3637,
+     "IY2": 0.1551,
+     "IY_UST_0.5": 0.7651,
+     "IY_UST_1.5": 0.4459
+    },
+    "iyms": {
+     "1/1": 0.4238,
+     "X/1": 0.192,
+     "X/X": 0.1159,
+     "2/2": 0.0796,
+     "X/2": 0.0587,
+     "1/X": 0.0436,
+     "2/X": 0.0422,
+     "2/1": 0.0327,
+     "1/2": 0.0116
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 64.8,
+     "n": 3,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 84.8,
+     "n": 3,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 2-1",
+     "olasilik": 9.8,
+     "n": 3,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 76.5,
+     "n": 3,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Bury",
+   "dep": "Cleethorpes",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.823,
+    "lam_dep": 1.53,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.4402,
+     "MSX": 0.2414,
+     "MS2": 0.3183,
+     "CS_1X": 0.6817,
+     "CS_12": 0.7586,
+     "CS_X2": 0.5598,
+     "KG_VAR": 0.6647,
+     "KG_YOK": 0.3353,
+     "UST_0.5": 0.9572,
+     "ALT_0.5": 0.0428,
+     "UST_1.5": 0.8555,
+     "ALT_1.5": 0.1445,
+     "UST_2.5": 0.6511,
+     "ALT_2.5": 0.3489,
+     "UST_3.5": 0.4313,
+     "ALT_3.5": 0.5687,
+     "UST_4.5": 0.2471,
+     "ALT_4.5": 0.7529
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1054
+     ],
+     [
+      "2-1",
+      0.0889
+     ],
+     [
+      "1-2",
+      0.0747
+     ],
+     [
+      "2-2",
+      0.068
+     ],
+     [
+      "2-0",
+      0.0581
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1445,
+     "2-3": 0.4242,
+     "4+": 0.4313
+    },
+    "devre": {
+     "IY1": 0.346,
+     "IYX": 0.3849,
+     "IY2": 0.2691,
+     "IY_UST_0.5": 0.7688,
+     "IY_UST_1.5": 0.4551
+    },
+    "iyms": {
+     "1/1": 0.2653,
+     "2/2": 0.183,
+     "X/1": 0.1448,
+     "X/X": 0.1315,
+     "X/2": 0.1113,
+     "1/X": 0.0552,
+     "2/X": 0.0548,
+     "2/1": 0.0301,
+     "1/2": 0.024
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 44.0,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 85.5,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 10.5,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 76.9,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Curzon Ashton",
+   "dep": "Ilkeston",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 2.509,
+    "lam_dep": 0.901,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.7176,
+     "MSX": 0.1742,
+     "MS2": 0.1083,
+     "CS_1X": 0.8917,
+     "CS_12": 0.8258,
+     "CS_X2": 0.2824,
+     "KG_VAR": 0.5515,
+     "KG_YOK": 0.4485,
+     "UST_0.5": 0.961,
+     "ALT_0.5": 0.039,
+     "UST_1.5": 0.8602,
+     "ALT_1.5": 0.1398,
+     "UST_2.5": 0.6621,
+     "ALT_2.5": 0.3379,
+     "UST_3.5": 0.4437,
+     "ALT_3.5": 0.5563,
+     "UST_4.5": 0.2576,
+     "ALT_4.5": 0.7424
+    },
+    "skorlar": [
+     [
+      "2-0",
+      0.104
+     ],
+     [
+      "2-1",
+      0.0937
+     ],
+     [
+      "3-0",
+      0.087
+     ],
+     [
+      "1-1",
+      0.0807
+     ],
+     [
+      "3-1",
+      0.0784
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1398,
+     "2-3": 0.4165,
+     "4+": 0.4437
+    },
+    "devre": {
+     "IY1": 0.5334,
+     "IYX": 0.342,
+     "IY2": 0.1247,
+     "IY_UST_0.5": 0.7765,
+     "IY_UST_1.5": 0.4615
+    },
+    "iyms": {
+     "1/1": 0.4853,
+     "X/1": 0.2,
+     "X/X": 0.1011,
+     "2/2": 0.0562,
+     "X/2": 0.0435,
+     "1/X": 0.0373,
+     "2/X": 0.0358,
+     "2/1": 0.0322,
+     "1/2": 0.0085
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 71.8,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 86.0,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 2-0",
+     "olasilik": 10.4,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 77.6,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Quorn",
+   "dep": "Stockton",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.994,
+    "lam_dep": 1.616,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.4613,
+     "MSX": 0.2293,
+     "MS2": 0.3094,
+     "CS_1X": 0.6906,
+     "CS_12": 0.7707,
+     "CS_X2": 0.5387,
+     "KG_VAR": 0.6992,
+     "KG_YOK": 0.3008,
+     "UST_0.5": 0.966,
+     "ALT_0.5": 0.034,
+     "UST_1.5": 0.8823,
+     "ALT_1.5": 0.1177,
+     "UST_2.5": 0.699,
+     "ALT_2.5": 0.301,
+     "UST_3.5": 0.4869,
+     "ALT_3.5": 0.5131,
+     "UST_4.5": 0.2955,
+     "ALT_4.5": 0.7045
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.0941
+     ],
+     [
+      "2-1",
+      0.0869
+     ],
+     [
+      "1-2",
+      0.0704
+     ],
+     [
+      "2-2",
+      0.0702
+     ],
+     [
+      "3-1",
+      0.0578
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1177,
+     "2-3": 0.3954,
+     "4+": 0.4869
+    },
+    "devre": {
+     "IY1": 0.3639,
+     "IYX": 0.3687,
+     "IY2": 0.2674,
+     "IY_UST_0.5": 0.7927,
+     "IY_UST_1.5": 0.4932
+    },
+    "iyms": {
+     "1/1": 0.2822,
+     "2/2": 0.1785,
+     "X/1": 0.1457,
+     "X/X": 0.1197,
+     "X/2": 0.1056,
+     "1/X": 0.0551,
+     "2/X": 0.0546,
+     "2/1": 0.0333,
+     "1/2": 0.0252
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 46.1,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 88.2,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 9.4,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 79.3,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Redcar Athletic",
+   "dep": "Bamber Bridge",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 2.311,
+    "lam_dep": 1.186,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.6189,
+     "MSX": 0.2041,
+     "MS2": 0.177,
+     "CS_1X": 0.823,
+     "CS_12": 0.7959,
+     "CS_X2": 0.3811,
+     "KG_VAR": 0.6322,
+     "KG_YOK": 0.3678,
+     "UST_0.5": 0.963,
+     "ALT_0.5": 0.037,
+     "UST_1.5": 0.8704,
+     "ALT_1.5": 0.1296,
+     "UST_2.5": 0.6785,
+     "ALT_2.5": 0.3215,
+     "UST_3.5": 0.4626,
+     "ALT_3.5": 0.5374,
+     "UST_4.5": 0.2738,
+     "ALT_4.5": 0.7262
+    },
+    "skorlar": [
+     [
+      "2-1",
+      0.0959
+     ],
+     [
+      "1-1",
+      0.0897
+     ],
+     [
+      "2-0",
+      0.0809
+     ],
+     [
+      "3-1",
+      0.0739
+     ],
+     [
+      "1-0",
+      0.0634
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1296,
+     "2-3": 0.4078,
+     "4+": 0.4626
+    },
+    "devre": {
+     "IY1": 0.4649,
+     "IYX": 0.3578,
+     "IY2": 0.1773,
+     "IY_UST_0.5": 0.7834,
+     "IY_UST_1.5": 0.4756
+    },
+    "iyms": {
+     "1/1": 0.4016,
+     "X/1": 0.182,
+     "X/X": 0.1119,
+     "2/2": 0.096,
+     "X/2": 0.0664,
+     "1/X": 0.0468,
+     "2/X": 0.0455,
+     "2/1": 0.0352,
+     "1/2": 0.0146
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 61.9,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 87.0,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 2-1",
+     "olasilik": 9.6,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 78.3,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Warrington Rylands",
+   "dep": "Guiseley",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.771,
+    "lam_dep": 1.584,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.4177,
+     "MSX": 0.2428,
+     "MS2": 0.3395,
+     "CS_1X": 0.6605,
+     "CS_12": 0.7572,
+     "CS_X2": 0.5823,
+     "KG_VAR": 0.6675,
+     "KG_YOK": 0.3325,
+     "UST_0.5": 0.9573,
+     "ALT_0.5": 0.0427,
+     "UST_1.5": 0.8558,
+     "ALT_1.5": 0.1442,
+     "UST_2.5": 0.6515,
+     "ALT_2.5": 0.3485,
+     "UST_3.5": 0.4318,
+     "ALT_3.5": 0.5682,
+     "UST_4.5": 0.2475,
+     "ALT_4.5": 0.7525
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1058
+     ],
+     [
+      "2-1",
+      0.0867
+     ],
+     [
+      "1-2",
+      0.0776
+     ],
+     [
+      "2-2",
+      0.0687
+     ],
+     [
+      "2-0",
+      0.0547
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1442,
+     "2-3": 0.424,
+     "4+": 0.4318
+    },
+    "devre": {
+     "IY1": 0.3319,
+     "IYX": 0.3855,
+     "IY2": 0.2826,
+     "IY_UST_0.5": 0.769,
+     "IY_UST_1.5": 0.4555
+    },
+    "iyms": {
+     "1/1": 0.2496,
+     "2/2": 0.1969,
+     "X/1": 0.1389,
+     "X/X": 0.132,
+     "X/2": 0.1174,
+     "1/X": 0.0555,
+     "2/X": 0.0553,
+     "2/1": 0.0292,
+     "1/2": 0.0252
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 41.8,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 85.6,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 10.6,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 76.9,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Workington",
+   "dep": "Alfreton",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.904,
+    "lam_dep": 1.373,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.4917,
+     "MSX": 0.2388,
+     "MS2": 0.2695,
+     "CS_1X": 0.7305,
+     "CS_12": 0.7612,
+     "CS_X2": 0.5083,
+     "KG_VAR": 0.6433,
+     "KG_YOK": 0.3567,
+     "UST_0.5": 0.9544,
+     "ALT_0.5": 0.0456,
+     "UST_1.5": 0.8465,
+     "ALT_1.5": 0.1535,
+     "UST_2.5": 0.636,
+     "ALT_2.5": 0.364,
+     "UST_3.5": 0.4146,
+     "ALT_3.5": 0.5854,
+     "UST_4.5": 0.2333,
+     "ALT_4.5": 0.7667
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1065
+     ],
+     [
+      "2-1",
+      0.0939
+     ],
+     [
+      "2-0",
+      0.0684
+     ],
+     [
+      "1-2",
+      0.0677
+     ],
+     [
+      "2-2",
+      0.0645
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1535,
+     "2-3": 0.4319,
+     "4+": 0.4146
+    },
+    "devre": {
+     "IY1": 0.3771,
+     "IYX": 0.3864,
+     "IY2": 0.2365,
+     "IY_UST_0.5": 0.7615,
+     "IY_UST_1.5": 0.4434
+    },
+    "iyms": {
+     "1/1": 0.3015,
+     "X/1": 0.1591,
+     "2/2": 0.1515,
+     "X/X": 0.1326,
+     "X/2": 0.0976,
+     "1/X": 0.0535,
+     "2/X": 0.0527,
+     "2/1": 0.0311,
+     "1/2": 0.0203
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 49.2,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 84.7,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 10.7,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 76.1,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  }
+ ]
+}

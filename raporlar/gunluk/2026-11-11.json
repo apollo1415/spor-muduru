@@ -1,0 +1,126 @@
+{
+ "tarih": "2026-11-11",
+ "kesit": "2026-11-11T14:26+03:00",
+ "kaynak": "oladeeayo/open-matchday",
+ "envanter": 1,
+ "modellenen": 1,
+ "hesaplanamadi": 0,
+ "baslamis": 0,
+ "maclar": [
+  {
+   "lig": "ENG_7_northern-premier-league",
+   "saat": "?",
+   "ev": "Avro",
+   "dep": "Whitby",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok"
+   ],
+   "model": {
+    "lam_ev": 1.938,
+    "lam_dep": 1.798,
+    "n_ev": 5,
+    "n_dep": 5,
+    "gol": {
+     "MS1": 0.414,
+     "MSX": 0.2277,
+     "MS2": 0.3583,
+     "CS_1X": 0.6417,
+     "CS_12": 0.7723,
+     "CS_X2": 0.586,
+     "KG_VAR": 0.7209,
+     "KG_YOK": 0.2791,
+     "UST_0.5": 0.9695,
+     "ALT_0.5": 0.0305,
+     "UST_1.5": 0.8937,
+     "ALT_1.5": 0.1063,
+     "UST_2.5": 0.7207,
+     "ALT_2.5": 0.2793,
+     "UST_3.5": 0.5134,
+     "ALT_3.5": 0.4866,
+     "UST_4.5": 0.3198,
+     "ALT_4.5": 0.6802
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.0897
+     ],
+     [
+      "2-1",
+      0.0805
+     ],
+     [
+      "1-2",
+      0.0747
+     ],
+     [
+      "2-2",
+      0.0724
+     ],
+     [
+      "3-1",
+      0.052
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.1063,
+     "2-3": 0.3803,
+     "4+": 0.5134
+    },
+    "devre": {
+     "IY1": 0.3359,
+     "IYX": 0.3636,
+     "IY2": 0.3005,
+     "IY_UST_0.5": 0.8034,
+     "IY_UST_1.5": 0.5115
+    },
+    "iyms": {
+     "1/1": 0.2496,
+     "2/2": 0.2115,
+     "X/1": 0.1321,
+     "X/2": 0.1176,
+     "X/X": 0.1161,
+     "1/X": 0.0559,
+     "2/X": 0.0557,
+     "2/1": 0.0323,
+     "1/2": 0.0292
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 41.4,
+     "n": 5,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 89.4,
+     "n": 5,
+     "guven": "D"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 9.0,
+     "n": 5,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 80.3,
+     "n": 5,
+     "guven": "D"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  }
+ ]
+}

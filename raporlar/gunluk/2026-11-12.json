@@ -1,0 +1,169 @@
+{
+ "tarih": "2026-11-12",
+ "kesit": "2026-11-12T14:50+03:00",
+ "kaynak": "oladeeayo/open-matchday",
+ "envanter": 5,
+ "modellenen": 1,
+ "hesaplanamadi": 4,
+ "baslamis": 1,
+ "maclar": [
+  {
+   "lig": "BRA_2_serie-b",
+   "saat": "01:00",
+   "ev": "Londrina",
+   "dep": "Náutico",
+   "durum": "basladi/bitti",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.377,
+    "lam_dep": 1.117,
+    "n_ev": 18,
+    "n_dep": 18,
+    "gol": {
+     "MS1": 0.4178,
+     "MSX": 0.2879,
+     "MS2": 0.2943,
+     "CS_1X": 0.7057,
+     "CS_12": 0.7121,
+     "CS_X2": 0.5822,
+     "KG_VAR": 0.5133,
+     "KG_YOK": 0.4867,
+     "UST_0.5": 0.9073,
+     "ALT_0.5": 0.0927,
+     "UST_1.5": 0.7217,
+     "ALT_1.5": 0.2783,
+     "UST_2.5": 0.4548,
+     "ALT_2.5": 0.5452,
+     "UST_3.5": 0.2412,
+     "ALT_3.5": 0.7588,
+     "UST_4.5": 0.1081,
+     "ALT_4.5": 0.8919
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1372
+     ],
+     [
+      "1-0",
+      0.1035
+     ],
+     [
+      "0-0",
+      0.0927
+     ],
+     [
+      "2-1",
+      0.0874
+     ],
+     [
+      "0-1",
+      0.0821
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2783,
+     "2-3": 0.4805,
+     "4+": 0.2412
+    },
+    "devre": {
+     "IY1": 0.3123,
+     "IYX": 0.4513,
+     "IY2": 0.2365,
+     "IY_UST_0.5": 0.6664,
+     "IY_UST_1.5": 0.3173
+    },
+    "iyms": {
+     "1/1": 0.2423,
+     "X/X": 0.1856,
+     "2/2": 0.1626,
+     "X/1": 0.1547,
+     "X/2": 0.1156,
+     "1/X": 0.0514,
+     "2/X": 0.051,
+     "2/1": 0.0208,
+     "1/2": 0.016
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 41.8,
+     "n": 18,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "ALT_3.5",
+     "olasilik": 75.9,
+     "n": 18,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 13.7,
+     "n": 18,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 66.6,
+     "n": 18,
+     "guven": "C"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "20:30",
+   "ev": "Calvo Sotelo",
+   "dep": "Albacete",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "21:00",
+   "ev": "CD Artistico Navalcarnero",
+   "dep": "Real Betis",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "21:00",
+   "ev": "CD Tarancon",
+   "dep": "Levante",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "?",
+   "ev": "Puertollano C.F.",
+   "dep": "Albacete",
+   "durum": "baslamadi",
+   "notlar": [
+    "baslama saati kaynakta yok",
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  }
+ ]
+}

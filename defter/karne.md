@@ -1,15 +1,19 @@
 # Ileriye donuk karne
 
-Guncelleme: 2026-11-14T13:55+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis tahminler.
+Guncelleme: 2026-11-15T14:29+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis tahminler.
 
 | uzman | n | tuttu | isabet % | ort. verilen olasilik % | Brier |
 |---|---|---|---|---|---|
-| Alt/Ust | 1 | 1 | 100.0 | 86.8 | 0.017 |
-| Alt/Ust / guven C | 1 | 1 | 100.0 | 86.8 | 0.017 |
-| Mac Sonucu | 17 | 9 | 52.9 | 51.0 | 0.218 |
-| Mac Sonucu / guven B | 17 | 9 | 52.9 | 51.0 | 0.218 |
-| Skor | 17 | 2 | 11.8 | 10.7 | 0.101 |
-| Skor / guven C | 17 | 2 | 11.8 | 10.7 | 0.101 |
-| TOPLAM | 35 | 12 | 34.3 | 32.4 | 0.155 |
+| Alt/Ust | 60 | 49 | 81.7 | 80.8 | 0.143 |
+| Alt/Ust / guven C | 60 | 49 | 81.7 | 80.8 | 0.143 |
+| IY/MS Korner | 15 | 10 | 66.7 | 71.3 | 0.219 |
+| IY/MS Korner / guven B | 15 | 10 | 66.7 | 71.3 | 0.219 |
+| Korner | 15 | 9 | 60.0 | 64.0 | 0.244 |
+| Korner / guven C | 15 | 9 | 60.0 | 64.0 | 0.244 |
+| Mac Sonucu | 85 | 52 | 61.2 | 49.2 | 0.231 |
+| Mac Sonucu / guven B | 85 | 52 | 61.2 | 49.2 | 0.231 |
+| Skor | 85 | 9 | 10.6 | 11.8 | 0.095 |
+| Skor / guven C | 85 | 9 | 10.6 | 11.8 | 0.095 |
+| TOPLAM | 260 | 129 | 49.6 | 46.4 | 0.166 |
 
-Bekleyen tahmin: 456. Toplam kayit: 492.
+Bekleyen tahmin: 113. Toplam kayit: 526.

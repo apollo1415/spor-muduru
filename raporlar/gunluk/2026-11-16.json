@@ -1,0 +1,124 @@
+{
+ "tarih": "2026-11-16",
+ "kesit": "2026-11-16T15:02+03:00",
+ "kaynak": "oladeeayo/open-matchday",
+ "envanter": 1,
+ "modellenen": 1,
+ "hesaplanamadi": 0,
+ "baslamis": 0,
+ "maclar": [
+  {
+   "lig": "ESP_2_segunda-division",
+   "saat": "22:30",
+   "ev": "Albacete",
+   "dep": "RC Celta Fortuna",
+   "durum": "baslamadi",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.526,
+    "lam_dep": 1.254,
+    "n_ev": 6,
+    "n_dep": 6,
+    "gol": {
+     "MS1": 0.4266,
+     "MSX": 0.2702,
+     "MS2": 0.3031,
+     "CS_1X": 0.6969,
+     "CS_12": 0.7298,
+     "CS_X2": 0.5734,
+     "KG_VAR": 0.5686,
+     "KG_YOK": 0.4314,
+     "UST_0.5": 0.9284,
+     "ALT_0.5": 0.0716,
+     "UST_1.5": 0.7749,
+     "ALT_1.5": 0.2251,
+     "UST_2.5": 0.5256,
+     "ALT_2.5": 0.4744,
+     "UST_3.5": 0.3035,
+     "ALT_3.5": 0.6965,
+     "UST_4.5": 0.1491,
+     "ALT_4.5": 0.8509
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1282
+     ],
+     [
+      "2-1",
+      0.0906
+     ],
+     [
+      "1-0",
+      0.0852
+     ],
+     [
+      "1-2",
+      0.0744
+     ],
+     [
+      "2-0",
+      0.0723
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2251,
+     "2-3": 0.4714,
+     "4+": 0.3035
+    },
+    "devre": {
+     "IY1": 0.3252,
+     "IYX": 0.4261,
+     "IY2": 0.2486,
+     "IY_UST_0.5": 0.7048,
+     "IY_UST_1.5": 0.3645
+    },
+    "iyms": {
+     "1/1": 0.2511,
+     "2/2": 0.17,
+     "X/X": 0.1641,
+     "X/1": 0.1516,
+     "X/2": 0.1144,
+     "1/X": 0.0533,
+     "2/X": 0.0529,
+     "2/1": 0.024,
+     "1/2": 0.0187
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 42.7,
+     "n": 6,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 77.5,
+     "n": 6,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 12.8,
+     "n": 6,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 70.5,
+     "n": 6,
+     "guven": "C"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  }
+ ]
+}

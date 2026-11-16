@@ -491,37 +491,41 @@
 2026-11-14,2026-11-14T13:55+03:00,WAL_2_cymru-north,Llanuwchllyn,Rhyl,?,IY,IY_UST_0.5,78.8,C,veri_yok
 2026-11-14,2026-11-14T13:55+03:00,WAL_3_cymru-south,Llantwit Major,Cardiff Draconians,?,Mac Sonucu,MS1,40.4,B,bekliyor
 2026-11-14,2026-11-14T13:55+03:00,WAL_3_cymru-south,Llantwit Major,Cardiff Draconians,?,Skor,skor 1-1,10.8,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,Mac Sonucu,MS1,62.9,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,Alt/Ust,UST_1.5,77.4,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,Skor,skor 2-0,11.8,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,IY,IY_UST_0.5,70.7,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,Mac Sonucu,MS2,43.7,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,Alt/Ust,UST_1.5,85.3,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,Skor,skor 1-1,10.6,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,IY,IY_UST_0.5,76.7,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Granada,Las Palmas,18:15,Mac Sonucu,MS1,50.6,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Granada,Las Palmas,18:15,Skor,skor 1-1,12.0,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eibar,Cádiz,20:30,Mac Sonucu,MS1,52.1,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eibar,Cádiz,20:30,Skor,skor 1-1,12.1,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,Mac Sonucu,MS1,41.8,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,Alt/Ust,ALT_3.5,74.7,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,Skor,skor 1-1,13.6,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,IY,IY_UST_0.5,67.4,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,Mac Sonucu,MS1,59.8,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,Alt/Ust,ALT_3.5,84.8,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,Skor,skor 1-0,18.5,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,IY,IY_UST_0.5,59.7,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,Mac Sonucu,MS1,46.3,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,Alt/Ust,UST_1.5,82.8,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,Skor,skor 1-1,11.4,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,IY,IY_UST_0.5,74.6,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,Mac Sonucu,MS1,39.6,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,Alt/Ust,ALT_3.5,87.9,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,Skor,skor 0-0,16.4,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,IY,IY_UST_0.5,56.3,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,S. Wola,Ol. Grudziadz,?,Mac Sonucu,MS1,38.7,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,S. Wola,Ol. Grudziadz,?,Skor,skor 1-1,12.1,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Mac Sonucu,MS1,52.2,B,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Alt/Ust,UST_1.5,76.8,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Skor,skor 1-1,12.3,C,bekliyor
-2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,IY,IY_UST_0.5,70.0,C,bekliyor
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,Mac Sonucu,MS1,62.9,B,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,Alt/Ust,UST_1.5,77.4,C,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,Skor,skor 2-0,11.8,C,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Tenerife,Ceuta,16:00,IY,IY_UST_0.5,70.7,C,veri_yok
+2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,Mac Sonucu,MS2,43.7,B,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,Alt/Ust,UST_1.5,85.3,C,tuttu
+2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,Skor,skor 1-1,10.6,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,NED_2_eerste-divisie,MVV Maastricht,Vitesse,16:30,IY,IY_UST_0.5,76.7,C,veri_yok
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Granada,Las Palmas,18:15,Mac Sonucu,MS1,50.6,B,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Granada,Las Palmas,18:15,Skor,skor 1-1,12.0,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eibar,Cádiz,20:30,Mac Sonucu,MS1,52.1,B,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eibar,Cádiz,20:30,Skor,skor 1-1,12.1,C,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,Mac Sonucu,MS1,41.8,B,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,Alt/Ust,ALT_3.5,74.7,C,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,Skor,skor 1-1,13.6,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ESP_2_segunda-division,Eldense,CD Sabadell,20:30,IY,IY_UST_0.5,67.4,C,veri_yok
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,Mac Sonucu,MS1,59.8,B,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,Alt/Ust,ALT_3.5,84.8,C,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,Skor,skor 1-0,18.5,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Deportivo Morón,Colegiales,21:00,IY,IY_UST_0.5,59.7,C,veri_yok
+2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,Mac Sonucu,MS1,46.3,B,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,Alt/Ust,UST_1.5,82.8,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,Skor,skor 1-1,11.4,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,MEX_2_liga-expansion,Leones Negros,Club Atlético Morelia,21:00,IY,IY_UST_0.5,74.6,C,veri_yok
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,Mac Sonucu,MS1,39.6,B,tuttu
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,Alt/Ust,ALT_3.5,87.9,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,Skor,skor 0-0,16.4,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,ARG_2_primera-nacional,Godoy Cruz Antonio Tomba,Tristán Suárez,23:00,IY,IY_UST_0.5,56.3,C,veri_yok
+2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,S. Wola,Ol. Grudziadz,?,Mac Sonucu,MS1,38.7,B,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,S. Wola,Ol. Grudziadz,?,Skor,skor 1-1,12.1,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Mac Sonucu,MS1,52.2,B,tuttu
+2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Alt/Ust,UST_1.5,76.8,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Skor,skor 1-1,12.3,C,tutmadi
+2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,IY,IY_UST_0.5,70.0,C,veri_yok
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Mac Sonucu,MS1,42.7,B,bekliyor
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Alt/Ust,UST_1.5,77.5,C,bekliyor
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Skor,skor 1-1,12.8,C,bekliyor
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,IY,IY_UST_0.5,70.5,C,bekliyor

@@ -525,7 +525,29 @@
 2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Alt/Ust,UST_1.5,76.8,C,tutmadi
 2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,Skor,skor 1-1,12.3,C,tutmadi
 2026-11-15,2026-11-15T14:29+03:00,POL_3_division-2,Tychy,Bielsko-Biala,?,IY,IY_UST_0.5,70.0,C,veri_yok
-2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Mac Sonucu,MS1,42.7,B,bekliyor
-2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Alt/Ust,UST_1.5,77.5,C,bekliyor
-2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Skor,skor 1-1,12.8,C,bekliyor
-2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,IY,IY_UST_0.5,70.5,C,bekliyor
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Mac Sonucu,MS1,42.7,B,tuttu
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Alt/Ust,UST_1.5,77.5,C,tutmadi
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,Skor,skor 1-1,12.8,C,tutmadi
+2026-11-16,2026-11-16T15:02+03:00,ESP_2_segunda-division,Albacete,RC Celta Fortuna,22:30,IY,IY_UST_0.5,70.5,C,veri_yok
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Bedford,Chorley,?,Mac Sonucu,MS1,49.6,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Bedford,Chorley,?,Skor,skor 1-1,12.5,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Oxford City,Macclesfield,?,Mac Sonucu,MS1,49.8,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Oxford City,Macclesfield,?,Skor,skor 1-1,12.2,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,South Shields,Harborough,?,Mac Sonucu,MS1,66.5,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,South Shields,Harborough,?,Skor,skor 2-0,12.3,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Spalding United,Hebburn Town,?,Mac Sonucu,MS1,63.6,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Spalding United,Hebburn Town,?,Skor,skor 2-0,10.7,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Spennymoor,Chester,?,Mac Sonucu,MS1,42.4,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-north,Spennymoor,Chester,?,Skor,skor 1-1,13.0,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-south,Tonbridge,Chesham,?,Mac Sonucu,MS1,48.6,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-south,Tonbridge,Chesham,?,Skor,skor 1-1,11.7,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-south,Truro,Billericay,?,Mac Sonucu,MS1,42.8,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_6_national-league-south,Truro,Billericay,?,Skor,skor 1-1,11.4,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Cleethorpes,FC United,?,Mac Sonucu,MS1,45.5,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Cleethorpes,FC United,?,Skor,skor 1-1,12.0,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Guiseley,Ashton Utd,?,Mac Sonucu,MS1,58.8,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Guiseley,Ashton Utd,?,Skor,skor 1-1,10.2,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Hyde,Warrington Rylands,?,Mac Sonucu,MS2,38.4,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Hyde,Warrington Rylands,?,Skor,skor 1-1,10.8,C,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Quorn,Bury,?,Mac Sonucu,MS1,47.7,B,bekliyor
+2026-11-17,2026-11-17T15:27+03:00,ENG_7_northern-premier-league,Quorn,Bury,?,Skor,skor 1-1,10.7,C,bekliyor

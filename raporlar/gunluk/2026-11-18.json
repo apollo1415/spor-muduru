@@ -1,0 +1,416 @@
+{
+ "tarih": "2026-11-18",
+ "kesit": "2026-11-18T15:14+03:00",
+ "kaynak": "oladeeayo/open-matchday",
+ "envanter": 9,
+ "modellenen": 3,
+ "hesaplanamadi": 6,
+ "baslamis": 3,
+ "maclar": [
+  {
+   "lig": "BRA_1_serie-a",
+   "saat": "02:00",
+   "ev": "Remo",
+   "dep": "Chapecoense",
+   "durum": "basladi/bitti",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.713,
+    "lam_dep": 0.928,
+    "n_ev": 17,
+    "n_dep": 17,
+    "gol": {
+     "MS1": 0.5497,
+     "MSX": 0.2566,
+     "MS2": 0.1937,
+     "CS_1X": 0.8063,
+     "CS_12": 0.7434,
+     "CS_X2": 0.4503,
+     "KG_VAR": 0.5047,
+     "KG_YOK": 0.4953,
+     "UST_0.5": 0.9196,
+     "ALT_0.5": 0.0804,
+     "UST_1.5": 0.7495,
+     "ALT_1.5": 0.2505,
+     "UST_2.5": 0.4918,
+     "ALT_2.5": 0.5082,
+     "UST_3.5": 0.2729,
+     "ALT_3.5": 0.7271,
+     "UST_4.5": 0.1284,
+     "ALT_4.5": 0.8716
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1224
+     ],
+     [
+      "1-0",
+      0.1131
+     ],
+     [
+      "2-0",
+      0.1046
+     ],
+     [
+      "2-1",
+      0.0971
+     ],
+     [
+      "0-0",
+      0.0804
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2505,
+     "2-3": 0.4766,
+     "4+": 0.2729
+    },
+    "devre": {
+     "IY1": 0.3983,
+     "IYX": 0.4267,
+     "IY2": 0.175,
+     "IY_UST_0.5": 0.6874,
+     "IY_UST_1.5": 0.341
+    },
+    "iyms": {
+     "1/1": 0.3373,
+     "X/1": 0.1876,
+     "X/X": 0.1641,
+     "2/2": 0.1029,
+     "X/2": 0.0792,
+     "1/X": 0.0468,
+     "2/X": 0.0457,
+     "2/1": 0.0248,
+     "1/2": 0.0115
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 55.0,
+     "n": 17,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 75.0,
+     "n": 17,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 12.2,
+     "n": 17,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 68.7,
+     "n": 17,
+     "guven": "C"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "BRA_1_serie-a",
+   "saat": "02:30",
+   "ev": "Cruzeiro",
+   "dep": "Palmeiras",
+   "durum": "basladi/bitti",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.09,
+    "lam_dep": 1.506,
+    "n_ev": 17,
+    "n_dep": 17,
+    "gol": {
+     "MS1": 0.2646,
+     "MSX": 0.277,
+     "MS2": 0.4584,
+     "CS_1X": 0.5416,
+     "CS_12": 0.723,
+     "CS_X2": 0.7354,
+     "KG_VAR": 0.5263,
+     "KG_YOK": 0.4737,
+     "UST_0.5": 0.9156,
+     "ALT_0.5": 0.0844,
+     "UST_1.5": 0.7416,
+     "ALT_1.5": 0.2584,
+     "UST_2.5": 0.4805,
+     "ALT_2.5": 0.5195,
+     "UST_3.5": 0.2631,
+     "ALT_3.5": 0.7369,
+     "UST_4.5": 0.122,
+     "ALT_4.5": 0.878
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1322
+     ],
+     [
+      "0-1",
+      0.1025
+     ],
+     [
+      "1-2",
+      0.0922
+     ],
+     [
+      "0-2",
+      0.0846
+     ],
+     [
+      "0-0",
+      0.0844
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2584,
+     "2-3": 0.4785,
+     "4+": 0.2631
+    },
+    "devre": {
+     "IY1": 0.2202,
+     "IYX": 0.4397,
+     "IY2": 0.34,
+     "IY_UST_0.5": 0.6808,
+     "IY_UST_1.5": 0.3341
+    },
+    "iyms": {
+     "2/2": 0.2711,
+     "X/X": 0.1755,
+     "X/2": 0.1644,
+     "1/1": 0.145,
+     "X/1": 0.1043,
+     "2/X": 0.0511,
+     "1/X": 0.0504,
+     "1/2": 0.0229,
+     "2/1": 0.0153
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS2",
+     "olasilik": 45.8,
+     "n": 17,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 74.2,
+     "n": 17,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 13.2,
+     "n": 17,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 68.1,
+     "n": 17,
+     "guven": "C"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "BRA_1_serie-a",
+   "saat": "02:30",
+   "ev": "Flamengo",
+   "dep": "Athletico-PR",
+   "durum": "basladi/bitti",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.843,
+    "lam_dep": 0.892,
+    "n_ev": 17,
+    "n_dep": 17,
+    "gol": {
+     "MS1": 0.5893,
+     "MSX": 0.2414,
+     "MS2": 0.1693,
+     "CS_1X": 0.8307,
+     "CS_12": 0.7586,
+     "CS_X2": 0.4107,
+     "KG_VAR": 0.5051,
+     "KG_YOK": 0.4949,
+     "UST_0.5": 0.9265,
+     "ALT_0.5": 0.0735,
+     "UST_1.5": 0.766,
+     "ALT_1.5": 0.234,
+     "UST_2.5": 0.5147,
+     "ALT_2.5": 0.4853,
+     "UST_3.5": 0.2935,
+     "ALT_3.5": 0.7065,
+     "UST_4.5": 0.1422,
+     "ALT_4.5": 0.8578
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1152
+     ],
+     [
+      "1-0",
+      0.1111
+     ],
+     [
+      "2-0",
+      0.1102
+     ],
+     [
+      "2-1",
+      0.0983
+     ],
+     [
+      "0-0",
+      0.0735
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.234,
+     "2-3": 0.4725,
+     "4+": 0.2935
+    },
+    "devre": {
+     "IY1": 0.4266,
+     "IYX": 0.4133,
+     "IY2": 0.1601,
+     "IY_UST_0.5": 0.7001,
+     "IY_UST_1.5": 0.3561
+    },
+    "iyms": {
+     "1/1": 0.3686,
+     "X/1": 0.1946,
+     "X/X": 0.153,
+     "2/2": 0.0891,
+     "X/2": 0.0697,
+     "1/X": 0.0448,
+     "2/X": 0.0436,
+     "2/1": 0.0261,
+     "1/2": 0.0105
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 58.9,
+     "n": 17,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 76.6,
+     "n": 17,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 11.5,
+     "n": 17,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 70.0,
+     "n": 17,
+     "guven": "C"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "21:00",
+   "ev": "Portugalete",
+   "dep": "Real Unión Irun",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "21:00",
+   "ev": "Utebo",
+   "dep": "CD Sabadell",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:00",
+   "ev": "Alcoyano",
+   "dep": "Mallorca",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:00",
+   "ev": "Badajoz",
+   "dep": "Tenerife",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:30",
+   "ev": "CD Minera",
+   "dep": "FC Cartagena",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ESP_CUP_copa-del-rey",
+   "saat": "22:30",
+   "ev": "Reus FC Reddis",
+   "dep": "Barakaldo",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  }
+ ]
+}

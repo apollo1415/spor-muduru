@@ -1,6 +1,6 @@
 # Ileriye donuk karne
 
-Guncelleme: 2026-11-18T15:14+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis tahminler.
+Guncelleme: 2026-11-19T15:08+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis tahminler.
 
 | uzman | n | tuttu | isabet % | ort. verilen olasilik % | Brier |
 |---|---|---|---|---|---|

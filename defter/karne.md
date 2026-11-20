@@ -1,6 +1,6 @@
 # Ileriye donuk karne
 
-Guncelleme: 2026-11-19T15:08+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis tahminler.
+Guncelleme: 2026-11-20T15:10+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis tahminler.
 
 | uzman | n | tuttu | isabet % | ort. verilen olasilik % | Brier |
 |---|---|---|---|---|---|
@@ -16,4 +16,4 @@ Guncelleme: 2026-11-19T15:08+03:00. Yalniz mac ONCESI kaydedilmis ve sonuclanmis
 | Skor / guven C | 106 | 11 | 10.4 | 11.9 | 0.093 |
 | TOPLAM | 310 | 146 | 47.1 | 45.1 | 0.172 |
 
-Bekleyen tahmin: 81. Toplam kayit: 552.
+Bekleyen tahmin: 279. Toplam kayit: 750.

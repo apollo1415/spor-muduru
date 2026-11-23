@@ -1,63 +1,63 @@
 {
  "yontem": "yuruyen pencere, yalniz onceki gunler; taban = ligin o ana kadarki sikligi",
  "K": 30.0,
- "uretim": "2026-11-22T14:58+03:00",
+ "uretim": "2026-11-23T16:38+03:00",
  "pazarlar": {
   "IY_UST_0.5": {
-   "n": 1106,
-   "brier_model": 0.1941,
-   "brier_taban": 0.1936,
-   "beceri": -0.0028,
-   "gozlenen": 0.7396,
-   "ort_tahmin": 0.7114
+   "n": 1130,
+   "brier_model": 0.195,
+   "brier_taban": 0.1945,
+   "beceri": -0.0023,
+   "gozlenen": 0.7381,
+   "ort_tahmin": 0.7118
   },
   "IY_UST_1.5": {
-   "n": 1106,
-   "brier_model": 0.2307,
-   "brier_taban": 0.2329,
-   "beceri": 0.0094,
-   "gozlenen": 0.368,
-   "ort_tahmin": 0.3764
+   "n": 1130,
+   "brier_model": 0.2305,
+   "brier_taban": 0.2325,
+   "beceri": 0.0087,
+   "gozlenen": 0.3655,
+   "ort_tahmin": 0.3768
   },
   "KG_VAR": {
-   "n": 5131,
-   "brier_model": 0.2441,
-   "brier_taban": 0.2445,
-   "beceri": 0.0015,
-   "gozlenen": 0.5473,
-   "ort_tahmin": 0.5361
+   "n": 5379,
+   "brier_model": 0.2444,
+   "brier_taban": 0.2447,
+   "beceri": 0.0013,
+   "gozlenen": 0.5466,
+   "ort_tahmin": 0.5378
   },
   "MS1": {
-   "n": 5131,
-   "brier_model": 0.2374,
-   "brier_taban": 0.2498,
-   "beceri": 0.0494,
-   "gozlenen": 0.4442,
-   "ort_tahmin": 0.438
+   "n": 5379,
+   "brier_model": 0.2364,
+   "brier_taban": 0.2497,
+   "beceri": 0.053,
+   "gozlenen": 0.4441,
+   "ort_tahmin": 0.4378
   },
   "MS2": {
-   "n": 5131,
+   "n": 5379,
    "brier_model": 0.2038,
-   "brier_taban": 0.2121,
-   "beceri": 0.0392,
-   "gozlenen": 0.3031,
-   "ort_tahmin": 0.2955
+   "brier_taban": 0.2127,
+   "beceri": 0.0421,
+   "gozlenen": 0.3049,
+   "ort_tahmin": 0.2963
   },
   "MSX": {
-   "n": 5131,
-   "brier_model": 0.1878,
-   "brier_taban": 0.1895,
-   "beceri": 0.0089,
-   "gozlenen": 0.2528,
-   "ort_tahmin": 0.2665
+   "n": 5379,
+   "brier_model": 0.1868,
+   "brier_taban": 0.1888,
+   "beceri": 0.0102,
+   "gozlenen": 0.251,
+   "ort_tahmin": 0.2659
   },
   "UST_2.5": {
-   "n": 5131,
-   "brier_model": 0.2408,
-   "brier_taban": 0.2416,
-   "beceri": 0.0035,
-   "gozlenen": 0.5284,
-   "ort_tahmin": 0.5091
+   "n": 5379,
+   "brier_model": 0.2407,
+   "brier_taban": 0.2414,
+   "beceri": 0.0032,
+   "gozlenen": 0.5302,
+   "ort_tahmin": 0.5112
   },
   "isabet_UST_7.5": {
    "n": 1034,
@@ -68,12 +68,12 @@
    "ort_tahmin": 0.6487
   },
   "iy_korner_UST_4.5": {
-   "n": 706,
-   "brier_model": 0.2474,
-   "brier_taban": 0.251,
-   "beceri": 0.0144,
-   "gozlenen": 0.4802,
-   "ort_tahmin": 0.4851
+   "n": 814,
+   "brier_model": 0.2478,
+   "brier_taban": 0.2512,
+   "beceri": 0.0136,
+   "gozlenen": 0.484,
+   "ort_tahmin": 0.4844
   },
   "kart_UST_4.5": {
    "n": 1034,
@@ -84,12 +84,12 @@
    "ort_tahmin": 0.374
   },
   "korner_UST_9.5": {
-   "n": 1039,
-   "brier_model": 0.2482,
-   "brier_taban": 0.2501,
-   "beceri": 0.0076,
-   "gozlenen": 0.5236,
-   "ort_tahmin": 0.535
+   "n": 1147,
+   "brier_model": 0.2484,
+   "brier_taban": 0.2502,
+   "beceri": 0.0074,
+   "gozlenen": 0.5257,
+   "ort_tahmin": 0.534
   },
   "sut_UST_23.5": {
    "n": 1034,

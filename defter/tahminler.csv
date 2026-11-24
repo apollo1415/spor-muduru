@@ -2100,87 +2100,324 @@
 2026-11-22,2026-11-22T14:58+03:00,UKR_1_premier-league,Dyn. Kyiv,Obolon,?,Skor,skor 1-0,17.0,C,tutmadi
 2026-11-22,2026-11-22T14:58+03:00,UKR_1_premier-league,Veres-Rivne,Bukovyna,?,Mac Sonucu,MS2,36.6,B,tuttu
 2026-11-22,2026-11-22T14:58+03:00,UKR_1_premier-league,Veres-Rivne,Bukovyna,?,Skor,skor 1-1,14.2,C,tutmadi
-2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,Mac Sonucu,MS1,47.1,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,Skor,skor 1-1,12.8,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,Sut,sut UST_23.5,57.9,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,IY/MS Korner,iy_korner ALT_5.5,71.4,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Mac Sonucu,MS1,46.9,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Alt/Ust,UST_1.5,84.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Skor,skor 1-1,10.9,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,IY,IY_UST_0.5,75.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Korner,korner ALT_10.5,64.9,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Sut,sut ALT_28.5,56.5,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Kart,kart ALT_5.5,76.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,IY/MS Korner,iy_korner ALT_5.5,69.2,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,Mac Sonucu,MS2,48.9,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,Alt/Ust,UST_1.5,89.6,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,Skor,skor 1-1,8.7,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,IY,IY_UST_0.5,80.6,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,Mac Sonucu,MS1,49.6,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,Alt/Ust,UST_1.5,86.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,Skor,skor 1-1,10.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,IY,IY_UST_0.5,77.5,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,Mac Sonucu,MS1,41.3,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,Alt/Ust,UST_1.5,85.8,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,Skor,skor 1-1,10.5,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,IY,IY_UST_0.5,77.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,Mac Sonucu,MS2,56.8,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,Alt/Ust,UST_1.5,75.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,Skor,skor 1-1,12.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,IY,IY_UST_0.5,68.8,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,Mac Sonucu,MS1,39.9,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,Alt/Ust,UST_1.5,76.5,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,Skor,skor 1-1,13.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,IY,IY_UST_0.5,69.7,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Sochaux-Montbéliard,USL Dunkerque,22:45,Mac Sonucu,MS2,37.1,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Sochaux-Montbéliard,USL Dunkerque,22:45,Skor,skor 1-1,13.5,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,Mac Sonucu,MS1,41.2,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,Skor,skor 1-1,10.6,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,Sut,sut ALT_29.5,55.7,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,IY/MS Korner,iy_korner ALT_5.5,73.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,Mac Sonucu,MS1,50.5,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,Alt/Ust,ALT_3.5,79.2,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,Skor,skor 1-0,13.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,IY,IY_UST_0.5,64.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,Mac Sonucu,MS1,51.7,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,Skor,skor 1-1,12.7,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,Sut,sut ALT_28.5,58.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,IY/MS Korner,iy_korner UST_3.5,69.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,Mac Sonucu,MS1,37.1,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,Skor,skor 1-1,12.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,Sut,sut ALT_28.5,58.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,IY/MS Korner,iy_korner ALT_5.5,70.2,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,Mac Sonucu,MS2,43.6,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,Alt/Ust,UST_1.5,83.9,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,Skor,skor 1-1,11.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,IY,IY_UST_0.5,75.5,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,CYP_1_first-division,Krasava,Anorthosis,?,Mac Sonucu,MS1,44.1,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,CYP_1_first-division,Krasava,Anorthosis,?,Skor,skor 1-1,12.4,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,Mac Sonucu,MS2,38.3,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,Alt/Ust,UST_1.5,82.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,Skor,skor 1-1,11.8,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,IY,IY_UST_0.5,74.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ENG_6_national-league-south,Chelmsford,Maidstone,?,Mac Sonucu,MS1,41.2,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ENG_6_national-league-south,Chelmsford,Maidstone,?,Skor,skor 1-1,12.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,POL_1_ekstraklasa,Wieczysta Krakow,Motor Lublin,?,Mac Sonucu,MS1,37.2,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,POL_1_ekstraklasa,Wieczysta Krakow,Motor Lublin,?,Skor,skor 1-1,12.2,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,POL_2_division-1,Podbeskidzie,Termalica B-B.,?,Mac Sonucu,MS1,43.8,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,POL_2_division-1,Podbeskidzie,Termalica B-B.,?,Skor,skor 1-1,13.2,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,Mac Sonucu,MS2,44.8,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,Alt/Ust,UST_1.5,75.8,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,Skor,skor 1-1,13.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,IY,IY_UST_0.5,69.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,Mac Sonucu,MS1,45.0,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,Alt/Ust,ALT_3.5,74.2,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,Skor,skor 1-1,13.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,IY,IY_UST_0.5,67.8,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Hammarby,Goteborg,?,Mac Sonucu,MS1,51.9,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Hammarby,Goteborg,?,Skor,skor 1-1,12.9,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,Mac Sonucu,MS1,43.4,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,Alt/Ust,ALT_3.5,79.2,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,Skor,skor 1-1,14.0,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,IY,IY_UST_0.5,64.3,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,Ch. Odesa,Epitsentr,?,Mac Sonucu,MS1,40.7,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,Ch. Odesa,Epitsentr,?,Skor,skor 1-1,14.1,C,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,LNZ Cherkasy,Polissya Zhytomyr,?,Mac Sonucu,MS1,36.2,B,bekliyor
-2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,LNZ Cherkasy,Polissya Zhytomyr,?,Skor,skor 1-1,14.1,C,bekliyor
+2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,Mac Sonucu,MS1,47.1,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,Skor,skor 1-1,12.8,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,Sut,sut UST_23.5,57.9,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,GRE_1_super-league,Asteras Tripoli,Aris,18:00,IY/MS Korner,iy_korner ALT_5.5,71.4,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Mac Sonucu,MS1,46.9,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Alt/Ust,UST_1.5,84.1,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Skor,skor 1-1,10.9,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,IY,IY_UST_0.5,75.3,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Korner,korner ALT_10.5,64.9,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Sut,sut ALT_28.5,56.5,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,Kart,kart ALT_5.5,76.3,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,TUR_1_super-lig,Istanbul Basaksehir,Çorum,20:00,IY/MS Korner,iy_korner ALT_5.5,69.2,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,Mac Sonucu,MS2,48.9,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,Alt/Ust,UST_1.5,89.6,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,Skor,skor 1-1,8.7,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong Ajax,Jong AZ,22:00,IY,IY_UST_0.5,80.6,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,Mac Sonucu,MS1,49.6,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,Alt/Ust,UST_1.5,86.3,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,Skor,skor 1-1,10.1,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Jong PSV,Jong FC Utrecht,22:00,IY,IY_UST_0.5,77.5,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,Mac Sonucu,MS1,41.3,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,Alt/Ust,UST_1.5,85.8,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,Skor,skor 1-1,10.5,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,NED_2_eerste-divisie,Vitesse,De Graafschap,22:00,IY,IY_UST_0.5,77.1,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,Mac Sonucu,MS2,56.8,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,Alt/Ust,UST_1.5,75.0,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,Skor,skor 1-1,12.0,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ESP_2_segunda-division,Ceuta,Almería,22:30,IY,IY_UST_0.5,68.8,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,Mac Sonucu,MS1,39.9,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,Alt/Ust,UST_1.5,76.5,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,Skor,skor 1-1,13.1,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Nantes,Grenoble Foot 38,22:45,IY,IY_UST_0.5,69.7,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Sochaux-Montbéliard,USL Dunkerque,22:45,Mac Sonucu,MS2,37.1,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,FRA_2_ligue-2,FC Sochaux-Montbéliard,USL Dunkerque,22:45,Skor,skor 1-1,13.5,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,Mac Sonucu,MS1,41.2,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,Skor,skor 1-1,10.6,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,Sut,sut ALT_29.5,55.7,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ITA_1_serie-a,Monza,Fiorentina,22:45,IY/MS Korner,iy_korner ALT_5.5,73.1,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,Mac Sonucu,MS1,50.5,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,Alt/Ust,ALT_3.5,79.2,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,Skor,skor 1-0,13.3,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ARG_1_liga-profesional,Gimnasia La Plata,Newell's Old Boys,23:00,IY,IY_UST_0.5,64.3,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,Mac Sonucu,MS1,51.7,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,Skor,skor 1-1,12.7,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,Sut,sut ALT_28.5,58.1,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ENG_1_premier-league,Brentford,Everton,23:00,IY/MS Korner,iy_korner UST_3.5,69.1,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,Mac Sonucu,MS1,37.1,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,Skor,skor 1-1,12.0,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,Sut,sut ALT_28.5,58.3,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ESP_1_la-liga,Levante UD,Elche CF,23:00,IY/MS Korner,iy_korner ALT_5.5,70.2,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,Mac Sonucu,MS2,43.6,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,Alt/Ust,UST_1.5,83.9,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,Skor,skor 1-1,11.1,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,CRO_1_hnl,Slaven Belupo,Osijek,?,IY,IY_UST_0.5,75.5,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,CYP_1_first-division,Krasava,Anorthosis,?,Mac Sonucu,MS1,44.1,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,CYP_1_first-division,Krasava,Anorthosis,?,Skor,skor 1-1,12.4,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,Mac Sonucu,MS2,38.3,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,Alt/Ust,UST_1.5,82.1,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,Skor,skor 1-1,11.8,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,DEN_1_superliga,Brondby,Midtjylland,?,IY,IY_UST_0.5,74.0,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,ENG_6_national-league-south,Chelmsford,Maidstone,?,Mac Sonucu,MS1,41.2,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ENG_6_national-league-south,Chelmsford,Maidstone,?,Skor,skor 1-1,12.0,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,POL_1_ekstraklasa,Wieczysta Krakow,Motor Lublin,?,Mac Sonucu,MS1,37.2,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,POL_1_ekstraklasa,Wieczysta Krakow,Motor Lublin,?,Skor,skor 1-1,12.2,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,POL_2_division-1,Podbeskidzie,Termalica B-B.,?,Mac Sonucu,MS1,43.8,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,POL_2_division-1,Podbeskidzie,Termalica B-B.,?,Skor,skor 1-1,13.2,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,Mac Sonucu,MS2,44.8,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,Alt/Ust,UST_1.5,75.8,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,Skor,skor 1-1,13.0,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,ROU_1_liga-1,Sepsi Sf. Gheorghe,FC Rapid Bucuresti,?,IY,IY_UST_0.5,69.3,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,Mac Sonucu,MS1,45.0,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,Alt/Ust,ALT_3.5,74.2,C,tuttu
+2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,Skor,skor 1-1,13.3,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,SVN_1_prva-liga,Koper,Aluminij,?,IY,IY_UST_0.5,67.8,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Hammarby,Goteborg,?,Mac Sonucu,MS1,51.9,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Hammarby,Goteborg,?,Skor,skor 1-1,12.9,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,Mac Sonucu,MS1,43.4,B,tuttu
+2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,Alt/Ust,ALT_3.5,79.2,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,Skor,skor 1-1,14.0,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,SWE_1_allsvenskan,Orgryte,Kalmar,?,IY,IY_UST_0.5,64.3,C,veri_yok
+2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,Ch. Odesa,Epitsentr,?,Mac Sonucu,MS1,40.7,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,Ch. Odesa,Epitsentr,?,Skor,skor 1-1,14.1,C,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,LNZ Cherkasy,Polissya Zhytomyr,?,Mac Sonucu,MS1,36.2,B,tutmadi
+2026-11-23,2026-11-23T16:38+03:00,UKR_1_premier-league,LNZ Cherkasy,Polissya Zhytomyr,?,Skor,skor 1-1,14.1,C,tuttu
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Juve Stabia,Catanzaro,21:00,Mac Sonucu,MS1,46.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Juve Stabia,Catanzaro,21:00,Skor,skor 1-1,13.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Benevento,Empoli,22:00,Mac Sonucu,MS1,47.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Benevento,Empoli,22:00,Alt/Ust,UST_1.5,75.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Benevento,Empoli,22:00,Skor,skor 1-1,13.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Benevento,Empoli,22:00,IY,IY_UST_0.5,68.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Cesena,Ascoli,22:00,Mac Sonucu,MS2,42.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Cesena,Ascoli,22:00,Skor,skor 1-1,13.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Palermo,Sudtirol,22:00,Mac Sonucu,MS1,51.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Palermo,Sudtirol,22:00,Skor,skor 1-1,12.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Vicenza,Carrarese,22:00,Mac Sonucu,MS2,38.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Vicenza,Carrarese,22:00,Skor,skor 1-1,13.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Virtus Entella,Hellas Verona,22:00,Mac Sonucu,MS2,39.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ITA_2_serie-b,Virtus Entella,Hellas Verona,22:00,Skor,skor 1-1,13.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,Mac Sonucu,MS2,39.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,Alt/Ust,UST_1.5,75.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,Skor,skor 1-1,13.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,IY,IY_UST_0.5,70.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,Korner,korner ALT_11.5,64.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,Sut,sut ALT_27.5,57.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,Kart,kart UST_2.5,70.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Bristol City,Wrexham,22:45,IY/MS Korner,iy_korner UST_3.5,66.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,Mac Sonucu,MS1,63.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,Alt/Ust,UST_1.5,82.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,Skor,skor 2-0,10.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,IY,IY_UST_0.5,78.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,Korner,korner ALT_11.5,61.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,Sut,sut ALT_29.5,57.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,Kart,kart ALT_5.5,77.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Cardiff City,Preston North End,22:45,IY/MS Korner,iy_korner ALT_5.5,65.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,Mac Sonucu,MS1,43.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,Alt/Ust,UST_1.5,75.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,Skor,skor 1-1,13.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,IY,IY_UST_0.5,70.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,Korner,korner ALT_11.5,62.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,Sut,sut UST_25.5,57.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,Kart,kart ALT_5.5,75.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Charlton Athletic,Lincoln City,22:45,IY/MS Korner,iy_korner UST_3.5,67.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,Mac Sonucu,MS1,55.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,Alt/Ust,UST_1.5,81.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,Skor,skor 1-1,11.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,IY,IY_UST_0.5,75.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,Korner,korner ALT_11.5,62.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,Sut,sut UST_25.5,57.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,Kart,kart UST_2.5,69.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Middlesbrough,Swansea City,22:45,IY/MS Korner,iy_korner ALT_5.5,67.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,Mac Sonucu,MS1,43.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,Alt/Ust,UST_1.5,80.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,Skor,skor 1-1,12.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,IY,IY_UST_0.5,74.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,Korner,korner UST_8.5,64.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,Sut,sut ALT_28.5,61.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,Kart,kart UST_2.5,73.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Norwich City,Queens Park Rangers,22:45,IY/MS Korner,iy_korner ALT_5.5,72.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,Mac Sonucu,MS2,43.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,Alt/Ust,UST_1.5,82.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,Skor,skor 1-1,11.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,IY,IY_UST_0.5,76.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,Korner,korner ALT_11.5,61.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,Sut,sut UST_25.5,57.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,Kart,kart UST_2.5,72.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Portsmouth,West Ham United,22:45,IY/MS Korner,iy_korner ALT_5.5,65.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,Mac Sonucu,MS1,43.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,Alt/Ust,UST_1.5,77.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,Skor,skor 1-1,12.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,IY,IY_UST_0.5,74.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,Korner,korner ALT_11.5,67.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,Sut,sut ALT_28.5,57.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,Kart,kart ALT_5.5,74.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Sheffield United,Southampton,22:45,IY/MS Korner,iy_korner ALT_5.5,69.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,Mac Sonucu,MS2,43.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,Alt/Ust,UST_1.5,79.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,Skor,skor 1-1,12.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,IY,IY_UST_0.5,69.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,Korner,korner ALT_12.5,65.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,Sut,sut ALT_28.5,57.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,Kart,kart UST_2.5,71.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Blackpool,Leicester City,22:45,IY/MS Korner,iy_korner ALT_6.5,70.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,Mac Sonucu,MS1,50.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,Alt/Ust,UST_1.5,75.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,Skor,skor 1-1,12.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,IY,IY_UST_0.5,61.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,Korner,korner ALT_12.5,63.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,Sut,sut UST_25.5,58.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,Kart,kart UST_2.5,73.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bradford City,Barnsley,22:45,IY/MS Korner,iy_korner ALT_6.5,70.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,Mac Sonucu,MS2,48.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,Alt/Ust,UST_1.5,81.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,Skor,skor 1-1,11.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,IY,IY_UST_0.5,70.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,Korner,korner ALT_12.5,67.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,Sut,sut ALT_27.5,57.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,Kart,kart UST_2.5,71.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Bromley,Wycombe Wanderers,22:45,IY/MS Korner,iy_korner ALT_6.5,71.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,Mac Sonucu,MS1,40.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,Alt/Ust,UST_1.5,77.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,Skor,skor 1-1,13.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,IY,IY_UST_0.5,65.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,Korner,korner ALT_12.5,67.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,Sut,sut UST_25.5,57.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,Kart,kart UST_2.5,74.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_3_league-one,Stevenage,Sheffield Wednesday,22:45,IY/MS Korner,iy_korner ALT_6.5,71.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,Mac Sonucu,MS2,49.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,Alt/Ust,UST_1.5,78.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,Skor,skor 1-1,12.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,IY,IY_UST_0.5,69.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,Korner,korner UST_8.5,63.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,Sut,sut ALT_27.5,57.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,Kart,kart ALT_5.5,70.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Crawley Town,Barnet,22:45,IY/MS Korner,iy_korner ALT_5.5,69.8,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,Mac Sonucu,MS1,48.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,Alt/Ust,ALT_3.5,76.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,Skor,skor 1-1,13.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,IY,IY_UST_0.5,67.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,Korner,korner UST_8.5,62.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,Sut,sut ALT_25.5,58.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,Kart,kart UST_2.5,74.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_4_league-two,Port Vale,Northampton Town,22:45,IY/MS Korner,iy_korner ALT_5.5,69.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,Mac Sonucu,MS1,43.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,Alt/Ust,UST_1.5,82.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,Skor,skor 1-1,11.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,IY,IY_UST_0.5,70.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,Korner,korner ALT_10.5,62.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,Sut,sut UST_16.5,59.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Fylde,FC Halifax Town,22:45,Kart,kart UST_2.5,75.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,Mac Sonucu,MS1,44.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,Alt/Ust,UST_1.5,79.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,Skor,skor 1-1,12.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,IY,IY_UST_0.5,70.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,Korner,korner UST_8.5,62.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,Sut,sut ALT_18.5,63.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,AFC Hornchurch,Sutton United,22:45,Kart,kart ALT_5.5,72.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,Mac Sonucu,MS1,40.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,Alt/Ust,UST_1.5,82.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,Skor,skor 1-1,11.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,IY,IY_UST_0.5,71.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,Korner,korner UST_8.5,62.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,Sut,sut UST_16.5,59.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Altrincham,Wealdstone,22:45,Kart,kart ALT_5.5,69.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,Mac Sonucu,MS2,47.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,Alt/Ust,UST_1.5,82.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,Skor,skor 1-1,11.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,IY,IY_UST_0.5,69.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,Korner,korner ALT_11.5,62.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,Sut,sut UST_16.5,59.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Boston United,Barrow,22:45,Kart,kart ALT_5.5,69.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,Mac Sonucu,MS1,60.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,Alt/Ust,UST_1.5,86.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,Skor,skor 2-1,9.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,IY,IY_UST_0.5,75.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,Korner,korner ALT_11.5,65.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,Sut,sut UST_17.5,59.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Carlisle United,Tamworth,22:45,Kart,kart ALT_5.5,74.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,Mac Sonucu,MS2,45.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,Alt/Ust,UST_1.5,82.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,Skor,skor 1-1,11.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,IY,IY_UST_0.5,67.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,Korner,korner UST_8.5,64.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,Sut,sut ALT_18.5,59.8,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Eastleigh,Yeovil Town,22:45,Kart,kart ALT_5.5,77.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,Mac Sonucu,MS2,48.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,Alt/Ust,UST_1.5,86.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,Skor,skor 1-1,10.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,IY,IY_UST_0.5,75.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,Korner,korner ALT_11.5,66.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,Sut,sut ALT_19.5,61.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Forest Green Rovers,Southend United,22:45,Kart,kart ALT_5.5,74.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,Mac Sonucu,MS1,63.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,Alt/Ust,UST_1.5,82.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,Skor,skor 2-0,10.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,IY,IY_UST_0.5,69.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,Korner,korner UST_8.5,64.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,Sut,sut UST_16.5,58.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Scunthorpe United,Gateshead,22:45,Kart,kart ALT_5.5,75.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,Mac Sonucu,MS2,44.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,Alt/Ust,UST_1.5,84.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,Skor,skor 1-1,11.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,IY,IY_UST_0.5,73.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,Korner,korner ALT_11.5,67.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,Sut,sut UST_16.5,58.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_5_national-league,Woking,Worthing,22:45,Kart,kart ALT_5.5,73.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,Mac Sonucu,MS2,46.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,Alt/Ust,UST_1.5,79.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,Skor,skor 1-1,12.1,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,IY,IY_UST_0.5,76.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,Korner,korner ALT_12.5,62.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,Sut,sut ALT_30.5,57.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Hibernian,Dundee,22:45,Kart,kart UST_2.5,73.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,Mac Sonucu,MS1,64.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,Alt/Ust,UST_1.5,80.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,Skor,skor 2-0,11.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,IY,IY_UST_0.5,74.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,Korner,korner ALT_11.5,62.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,Sut,sut ALT_28.5,59.3,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,Kart,kart ALT_5.5,75.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_2_championship,Wolverhampton Wanderers,Derby County,23:00,IY/MS Korner,iy_korner ALT_5.5,67.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Rangers,Aberdeen,23:00,Mac Sonucu,MS1,51.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Rangers,Aberdeen,23:00,Skor,skor 1-1,11.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,SCO_1_premiership,Rangers,Aberdeen,23:00,Sut,sut ALT_30.5,57.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,AFC Telford,Buxton,?,Mac Sonucu,MS1,42.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,AFC Telford,Buxton,?,Skor,skor 1-1,11.4,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Brackley Town,Hereford,?,Mac Sonucu,MS2,44.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Brackley Town,Hereford,?,Skor,skor 1-1,12.0,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Chorley,Hebburn Town,?,Mac Sonucu,MS1,57.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Chorley,Hebburn Town,?,Skor,skor 1-1,10.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Darlington,Southport,?,Mac Sonucu,MS1,57.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Darlington,Southport,?,Skor,skor 1-1,11.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Harborough,Chester,?,Mac Sonucu,MS2,43.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Harborough,Chester,?,Skor,skor 1-1,12.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Hednesford,Oxford City,?,Mac Sonucu,MS1,49.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Hednesford,Oxford City,?,Skor,skor 1-1,11.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,King’s Lynn,Radcliffe,?,Mac Sonucu,MS1,51.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,King’s Lynn,Radcliffe,?,Skor,skor 1-1,11.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Macclesfield,Morecambe,?,Mac Sonucu,MS1,46.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Macclesfield,Morecambe,?,Skor,skor 1-1,11.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Marine,Spennymoor,?,Mac Sonucu,MS1,59.4,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Marine,Spennymoor,?,Skor,skor 1-1,10.7,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Merthyr Town,Bedford,?,Mac Sonucu,MS1,43.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Merthyr Town,Bedford,?,Skor,skor 1-1,11.8,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Scarborough,Spalding United,?,Mac Sonucu,MS1,38.9,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,Scarborough,Spalding United,?,Skor,skor 1-1,12.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,South Shields,Worksop,?,Mac Sonucu,MS1,60.0,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-north,South Shields,Worksop,?,Skor,skor 1-1,9.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Dag & Red,Tonbridge,?,Mac Sonucu,MS1,46.8,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Dag & Red,Tonbridge,?,Skor,skor 1-1,12.2,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Farnham,Maidenhead,?,Mac Sonucu,MS1,55.5,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Farnham,Maidenhead,?,Skor,skor 1-1,10.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Horsham FC,Truro,?,Mac Sonucu,MS2,39.6,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Horsham FC,Truro,?,Skor,skor 1-1,11.5,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Salisbury,AFC Totton,?,Mac Sonucu,MS1,60.1,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Salisbury,AFC Totton,?,Skor,skor 1-1,10.6,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Slough,Farnborough,?,Mac Sonucu,MS1,47.2,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_6_national-league-south,Slough,Farnborough,?,Skor,skor 1-1,11.3,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_7_northern-premier-league,Leek,Gainsborough,?,Mac Sonucu,MS2,43.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,ENG_7_northern-premier-league,Leek,Gainsborough,?,Skor,skor 1-1,9.9,C,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,WAL_1_cymru-premier,Holywell,Penybont,?,Mac Sonucu,MS2,71.7,B,bekliyor
+2026-11-24,2026-11-24T17:16+03:00,WAL_1_cymru-premier,Holywell,Penybont,?,Skor,skor 0-2,9.4,C,bekliyor

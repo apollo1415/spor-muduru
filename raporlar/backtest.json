@@ -1,7 +1,7 @@
 {
  "yontem": "yuruyen pencere, yalniz onceki gunler; taban = ligin o ana kadarki sikligi",
  "K": 30.0,
- "uretim": "2026-11-24T17:16+03:00",
+ "uretim": "2026-11-25T16:29+03:00",
  "pazarlar": {
   "IY_UST_0.5": {
    "n": 1270,
@@ -20,44 +20,44 @@
    "ort_tahmin": 0.3775
   },
   "KG_VAR": {
-   "n": 5399,
+   "n": 5446,
    "brier_model": 0.2445,
-   "brier_taban": 0.2448,
-   "beceri": 0.0011,
-   "gozlenen": 0.5468,
-   "ort_tahmin": 0.5379
+   "brier_taban": 0.2449,
+   "beceri": 0.0014,
+   "gozlenen": 0.5466,
+   "ort_tahmin": 0.5383
   },
   "MS1": {
-   "n": 5399,
-   "brier_model": 0.2365,
-   "brier_taban": 0.2497,
-   "beceri": 0.0529,
-   "gozlenen": 0.4443,
-   "ort_tahmin": 0.4378
+   "n": 5446,
+   "brier_model": 0.2367,
+   "brier_taban": 0.2499,
+   "beceri": 0.0525,
+   "gozlenen": 0.4453,
+   "ort_tahmin": 0.4376
   },
   "MS2": {
-   "n": 5399,
-   "brier_model": 0.2039,
-   "brier_taban": 0.2128,
-   "beceri": 0.0421,
-   "gozlenen": 0.3051,
-   "ort_tahmin": 0.2963
+   "n": 5446,
+   "brier_model": 0.2036,
+   "brier_taban": 0.2124,
+   "beceri": 0.0411,
+   "gozlenen": 0.3041,
+   "ort_tahmin": 0.2967
   },
   "MSX": {
-   "n": 5399,
+   "n": 5446,
    "brier_model": 0.1867,
-   "brier_taban": 0.1886,
-   "beceri": 0.0101,
+   "brier_taban": 0.1885,
+   "beceri": 0.01,
    "gozlenen": 0.2506,
-   "ort_tahmin": 0.2659
+   "ort_tahmin": 0.2658
   },
   "UST_2.5": {
-   "n": 5399,
-   "brier_model": 0.2407,
-   "brier_taban": 0.2415,
-   "beceri": 0.0031,
+   "n": 5446,
+   "brier_model": 0.2408,
+   "brier_taban": 0.2416,
+   "beceri": 0.0033,
    "gozlenen": 0.5301,
-   "ort_tahmin": 0.5114
+   "ort_tahmin": 0.5118
   },
   "isabet_UST_7.5": {
    "n": 1192,
@@ -68,12 +68,12 @@
    "ort_tahmin": 0.6519
   },
   "iy_korner_UST_4.5": {
-   "n": 819,
-   "brier_model": 0.2478,
+   "n": 833,
+   "brier_model": 0.2479,
    "brier_taban": 0.251,
-   "beceri": 0.0131,
-   "gozlenen": 0.4835,
-   "ort_tahmin": 0.4843
+   "beceri": 0.0127,
+   "gozlenen": 0.4886,
+   "ort_tahmin": 0.4847
   },
   "kart_UST_4.5": {
    "n": 1192,
@@ -84,12 +84,12 @@
    "ort_tahmin": 0.3749
   },
   "korner_UST_9.5": {
-   "n": 1192,
-   "brier_model": 0.2487,
-   "brier_taban": 0.2503,
-   "beceri": 0.0067,
-   "gozlenen": 0.5268,
-   "ort_tahmin": 0.5347
+   "n": 1206,
+   "brier_model": 0.2481,
+   "brier_taban": 0.2498,
+   "beceri": 0.0069,
+   "gozlenen": 0.529,
+   "ort_tahmin": 0.5354
   },
   "sut_UST_23.5": {
    "n": 1192,

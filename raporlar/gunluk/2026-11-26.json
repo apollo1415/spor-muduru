@@ -1,0 +1,738 @@
+{
+ "tarih": "2026-11-26",
+ "kesit": "2026-11-26T16:08+03:00",
+ "kaynak": "oladeeayo/open-matchday",
+ "envanter": 38,
+ "modellenen": 2,
+ "hesaplanamadi": 36,
+ "baslamis": 1,
+ "maclar": [
+  {
+   "lig": "BRA_1_serie-a",
+   "saat": "02:00",
+   "ev": "São Paulo",
+   "dep": "Remo",
+   "durum": "basladi/bitti",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.835,
+    "lam_dep": 0.8,
+    "n_ev": 18,
+    "n_dep": 18,
+    "gol": {
+     "MS1": 0.6107,
+     "MSX": 0.2395,
+     "MS2": 0.1498,
+     "CS_1X": 0.8502,
+     "CS_12": 0.7605,
+     "CS_X2": 0.3893,
+     "KG_VAR": 0.4711,
+     "KG_YOK": 0.5289,
+     "UST_0.5": 0.9198,
+     "ALT_0.5": 0.0802,
+     "UST_1.5": 0.7476,
+     "ALT_1.5": 0.2524,
+     "UST_2.5": 0.4901,
+     "ALT_2.5": 0.5099,
+     "UST_3.5": 0.2715,
+     "ALT_3.5": 0.7285,
+     "UST_4.5": 0.1275,
+     "ALT_4.5": 0.8725
+    },
+    "skorlar": [
+     [
+      "1-0",
+      0.1232
+     ],
+     [
+      "2-0",
+      0.1208
+     ],
+     [
+      "1-1",
+      0.1137
+     ],
+     [
+      "2-1",
+      0.0966
+     ],
+     [
+      "0-0",
+      0.0802
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2524,
+     "2-3": 0.4761,
+     "4+": 0.2715
+    },
+    "devre": {
+     "IY1": 0.4376,
+     "IYX": 0.4179,
+     "IY2": 0.1445,
+     "IY_UST_0.5": 0.6871,
+     "IY_UST_1.5": 0.3394
+    },
+    "iyms": {
+     "1/1": 0.3839,
+     "X/1": 0.2023,
+     "X/X": 0.1565,
+     "2/2": 0.0778,
+     "X/2": 0.0633,
+     "1/X": 0.0421,
+     "2/X": 0.0409,
+     "2/1": 0.0246,
+     "1/2": 0.0087
+    },
+    "iy_pay": [
+     0.45,
+     "on-kabul"
+    ]
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS1",
+     "olasilik": 61.1,
+     "n": 18,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 74.8,
+     "n": 18,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-0",
+     "olasilik": 12.3,
+     "n": 18,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 68.7,
+     "n": 18,
+     "guven": "C"
+    },
+    "Korner": null,
+    "Sut": null,
+    "Kart": null,
+    "IY/MS Korner": null
+   }
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "18:30",
+   "ev": "Kairat Almaty",
+   "dep": "Mjällby",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Ajax",
+   "dep": "Thun",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (NED_1_eredivisie / SUI_1_super-league): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Brann",
+   "dep": "Aarhus",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (NOR_1_eliteserien / DEN_1_superliga): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Brighton",
+   "dep": "U. Craiova",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Egnatia",
+   "dep": "L. Red Imps",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Hearts",
+   "dep": "Monaco",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Iberia Tbilisi",
+   "dep": "Getafe",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Jablonec",
+   "dep": "Lugano",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (CZE_1_chance-liga / SUI_1_super-league): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Kauno Žalgiris",
+   "dep": "Riga",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "20:45",
+   "ev": "Pafos",
+   "dep": "Midtjylland",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (CYP_1_first-division / DEN_1_superliga): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Besiktas",
+   "dep": "H. Beer-Sheva",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Celta",
+   "dep": "Bournemouth",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (ESP_1_la-liga / ENG_1_premier-league): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "GNK Dinamo",
+   "dep": "Leverkusen",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Marseille",
+   "dep": "Levski Sofia",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Olympiacos",
+   "dep": "Milan",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (GRE_1_super-league / ITA_1_serie-a): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Salzburg",
+   "dep": "Ararat-Armenia",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Union SG",
+   "dep": "Lech Poznan",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "20:45",
+   "ev": "Viktoria Plzen",
+   "dep": "Benfica",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "ENG_3_league-one",
+   "saat": "23:00",
+   "ev": "Doncaster Rovers",
+   "dep": "Huddersfield Town",
+   "durum": "baslamadi",
+   "notlar": [],
+   "model": {
+    "lam_ev": 1.077,
+    "lam_dep": 1.622,
+    "n_ev": 6,
+    "n_dep": 7,
+    "gol": {
+     "MS1": 0.2427,
+     "MSX": 0.266,
+     "MS2": 0.4912,
+     "CS_1X": 0.5088,
+     "CS_12": 0.734,
+     "CS_X2": 0.7573,
+     "KG_VAR": 0.5385,
+     "KG_YOK": 0.4615,
+     "UST_0.5": 0.9233,
+     "ALT_0.5": 0.0767,
+     "UST_1.5": 0.7606,
+     "ALT_1.5": 0.2394,
+     "UST_2.5": 0.5062,
+     "ALT_2.5": 0.4938,
+     "UST_3.5": 0.2857,
+     "ALT_3.5": 0.7143,
+     "UST_4.5": 0.137,
+     "ALT_4.5": 0.863
+    },
+    "skorlar": [
+     [
+      "1-1",
+      0.1269
+     ],
+     [
+      "0-1",
+      0.0997
+     ],
+     [
+      "1-2",
+      0.0953
+     ],
+     [
+      "0-2",
+      0.0885
+     ],
+     [
+      "0-0",
+      0.0767
+     ]
+    ],
+    "gol_araligi": {
+     "0-1": 0.2394,
+     "2-3": 0.4749,
+     "4+": 0.2857
+    },
+    "devre": {
+     "IY1": 0.199,
+     "IYX": 0.4603,
+     "IY2": 0.3407,
+     "IY_UST_0.5": 0.6473,
+     "IY_UST_1.5": 0.2952
+    },
+    "iyms": {
+     "2/2": 0.273,
+     "X/2": 0.1911,
+     "X/X": 0.1678,
+     "1/1": 0.1216,
+     "X/1": 0.1051,
+     "2/X": 0.0494,
+     "1/X": 0.0487,
+     "1/2": 0.0271,
+     "2/1": 0.016
+    },
+    "iy_pay": [
+     0.394,
+     "veri"
+    ],
+    "korner": {
+     "bekl_ev": 4.29,
+     "bekl_dep": 6.66,
+     "n_ev": 6,
+     "n_dep": 7,
+     "vmr": 1.07,
+     "BEKLENEN": 10.9453,
+     "UST_9.5": 0.646,
+     "ALT_9.5": 0.354,
+     "UST_10.5": 0.5296,
+     "ALT_10.5": 0.4704,
+     "UST_11.5": 0.4144,
+     "ALT_11.5": 0.5856,
+     "EV_COK": 0.1908,
+     "ESIT": 0.0954,
+     "DEP_COK": 0.7138
+    },
+    "sut": {
+     "bekl_ev": 11.85,
+     "bekl_dep": 15.41,
+     "n_ev": 6,
+     "n_dep": 7,
+     "vmr": 1.15,
+     "BEKLENEN": 27.2619,
+     "UST_26.5": 0.539,
+     "ALT_26.5": 0.461,
+     "UST_27.5": 0.4676,
+     "ALT_27.5": 0.5324,
+     "UST_28.5": 0.3982,
+     "ALT_28.5": 0.6018,
+     "EV_COK": 0.2181,
+     "ESIT": 0.0611,
+     "DEP_COK": 0.7208
+    },
+    "isabet": {
+     "bekl_ev": 2.9,
+     "bekl_dep": 5.78,
+     "n_ev": 6,
+     "n_dep": 7,
+     "vmr": 1.0,
+     "BEKLENEN": 8.6789,
+     "UST_7.5": 0.6372,
+     "ALT_7.5": 0.3628,
+     "UST_8.5": 0.5014,
+     "ALT_8.5": 0.4986,
+     "UST_9.5": 0.3704,
+     "ALT_9.5": 0.6296,
+     "EV_COK": 0.1213,
+     "ESIT": 0.0868,
+     "DEP_COK": 0.7919
+    },
+    "kart": {
+     "bekl_ev": 2.03,
+     "bekl_dep": 1.67,
+     "n_ev": 6,
+     "n_dep": 7,
+     "vmr": 1.05,
+     "BEKLENEN": 3.7022,
+     "UST_2.5": 0.7076,
+     "ALT_2.5": 0.2924,
+     "UST_3.5": 0.5026,
+     "ALT_3.5": 0.4974,
+     "UST_4.5": 0.3146,
+     "ALT_4.5": 0.6854,
+     "EV_COK": 0.4648,
+     "ESIT": 0.2128,
+     "DEP_COK": 0.3224
+    },
+    "iy_korner": {
+     "bekl_ev": 1.86,
+     "bekl_dep": 3.43,
+     "n_ev": 6,
+     "n_dep": 7,
+     "vmr": 1.14,
+     "BEKLENEN": 5.2889,
+     "UST_4.5": 0.595,
+     "ALT_4.5": 0.405,
+     "UST_5.5": 0.4312,
+     "ALT_5.5": 0.5688,
+     "UST_6.5": 0.2878,
+     "ALT_6.5": 0.7122,
+     "EV_COK": 0.178,
+     "ESIT": 0.1436,
+     "DEP_COK": 0.6784
+    }
+   },
+   "uzmanlar": {
+    "Mac Sonucu": {
+     "secim": "MS2",
+     "olasilik": 49.1,
+     "n": 6,
+     "guven": "B"
+    },
+    "Alt/Ust": {
+     "secim": "UST_1.5",
+     "olasilik": 76.1,
+     "n": 6,
+     "guven": "C"
+    },
+    "Skor": {
+     "secim": "skor 1-1",
+     "olasilik": 12.7,
+     "n": 6,
+     "guven": "C"
+    },
+    "IY": {
+     "secim": "IY_UST_0.5",
+     "olasilik": 64.7,
+     "n": 6,
+     "guven": "C"
+    },
+    "Korner": {
+     "secim": "korner UST_9.5",
+     "olasilik": 64.6,
+     "n": 6,
+     "guven": "C"
+    },
+    "Sut": {
+     "secim": "sut ALT_28.5",
+     "olasilik": 60.2,
+     "n": 6,
+     "guven": "B"
+    },
+    "Kart": {
+     "secim": "kart UST_2.5",
+     "olasilik": 70.8,
+     "n": 6,
+     "guven": "C"
+    },
+    "IY/MS Korner": {
+     "secim": "iy_korner ALT_6.5",
+     "olasilik": 71.2,
+     "n": 6,
+     "guven": "B"
+    }
+   }
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Borac",
+   "dep": "Atalanta",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Braga",
+   "dep": "KuPS Kuopio",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "CSKA Sofia",
+   "dep": "Trabzonspor",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Freiburg",
+   "dep": "Twente",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Gent",
+   "dep": "Crvena Zvezda",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Hajduk Split",
+   "dep": "Sint-Truidense",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (CRO_1_hnl / BEL_1_pro-league): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Inter Escaldes",
+   "dep": "Copenhagen",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_conference-league",
+   "saat": "23:00",
+   "ev": "Nordsjælland",
+   "dep": "Panathinaikos",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Crystal Palace",
+   "dep": "Real Sociedad",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (ENG_1_premier-league / ESP_1_la-liga): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Ferencváros",
+   "dep": "Celje",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Hoffenheim",
+   "dep": "Sturm Graz",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Juventus",
+   "dep": "Omonia",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (ITA_1_serie-a / CYP_1_first-division): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Lyon",
+   "dep": "Lillestrøm",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "N.E.C.",
+   "dep": "Rennes",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "OFI Crete",
+   "dep": "Anderlecht",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (GRE_1_super-league / BEL_1_pro-league): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Sparta Praha",
+   "dep": "AZ Alkmaar",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Sunderland",
+   "dep": "Jagiellonia",
+   "durum": "baslamadi",
+   "notlar": [
+    "takimlar farkli liglerden (ENG_1_premier-league / POL_1_ekstraklasa): lig gucu farki modellenemedi"
+   ],
+   "sonuc": "hesaplanamadi"
+  },
+  {
+   "lig": "UEFA_1_europa-league",
+   "saat": "23:00",
+   "ev": "Torreense",
+   "dep": "Celtic",
+   "durum": "baslamadi",
+   "notlar": [
+    "yeterli gecmis mac yok"
+   ],
+   "sonuc": "hesaplanamadi"
+  }
+ ]
+}

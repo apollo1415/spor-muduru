@@ -2421,74 +2421,82 @@
 2026-11-24,2026-11-24T17:16+03:00,ENG_7_northern-premier-league,Leek,Gainsborough,?,Skor,skor 1-1,9.9,C,tutmadi
 2026-11-24,2026-11-24T17:16+03:00,WAL_1_cymru-premier,Holywell,Penybont,?,Mac Sonucu,MS2,71.7,B,tuttu
 2026-11-24,2026-11-24T17:16+03:00,WAL_1_cymru-premier,Holywell,Penybont,?,Skor,skor 0-2,9.4,C,tutmadi
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Cremonese,US Avellino,21:00,Mac Sonucu,MS1,37.1,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Cremonese,US Avellino,21:00,Skor,skor 1-1,13.7,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Mac Sonucu,MS1,62.2,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Alt/Ust,UST_1.5,83.4,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Skor,skor 1-1,9.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,IY,IY_UST_0.5,72.0,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Korner,korner UST_8.5,61.8,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Sut,sut UST_16.5,59.8,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Kart,kart ALT_5.5,73.5,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,Mac Sonucu,MS1,47.6,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,Alt/Ust,UST_1.5,74.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,Skor,skor 1-1,13.0,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,IY,IY_UST_0.5,68.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,Mac Sonucu,MS1,48.0,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,Alt/Ust,UST_1.5,74.4,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,Skor,skor 1-1,13.0,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,IY,IY_UST_0.5,68.3,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,Mac Sonucu,MS2,46.1,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,Alt/Ust,UST_1.5,77.8,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,Skor,skor 1-1,12.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,IY,IY_UST_0.5,70.7,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Mac Sonucu,MS2,47.4,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Alt/Ust,UST_1.5,80.0,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Skor,skor 1-1,12.0,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,IY,IY_UST_0.5,73.8,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Korner,korner UST_9.5,63.3,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Sut,sut ALT_28.5,59.8,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Kart,kart UST_2.5,71.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,IY/MS Korner,iy_korner UST_3.5,65.8,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Mac Sonucu,MS2,44.5,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Alt/Ust,UST_1.5,78.2,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Skor,skor 1-1,12.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,IY,IY_UST_0.5,72.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Korner,korner ALT_11.5,66.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Sut,sut UST_25.5,57.2,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Kart,kart ALT_5.5,76.8,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,IY/MS Korner,iy_korner ALT_5.5,65.8,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Mac Sonucu,MS1,39.5,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Alt/Ust,UST_1.5,78.3,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Skor,skor 1-1,12.7,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,IY,IY_UST_0.5,74.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Korner,korner ALT_11.5,63.2,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Sut,sut ALT_28.5,58.6,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Kart,kart ALT_5.5,74.7,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,IY/MS Korner,iy_korner UST_3.5,68.0,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Mac Sonucu,MS1,57.0,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Alt/Ust,UST_1.5,82.4,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Skor,skor 1-1,10.7,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,IY,IY_UST_0.5,72.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Korner,korner UST_8.5,64.2,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Sut,sut UST_16.5,58.5,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Kart,kart ALT_5.5,75.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Mac Sonucu,MS1,46.7,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Alt/Ust,UST_1.5,82.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Skor,skor 1-1,11.4,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,IY,IY_UST_0.5,69.5,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Korner,korner UST_8.5,64.2,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Sut,sut UST_16.5,59.2,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Kart,kart UST_2.5,74.4,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Mac Sonucu,MS1,60.3,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Alt/Ust,UST_1.5,79.5,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Skor,skor 1-1,10.9,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,IY,IY_UST_0.5,73.4,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Korner,korner ALT_11.5,63.2,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Sut,sut UST_25.5,56.8,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Kart,kart ALT_5.5,75.6,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,IY/MS Korner,iy_korner UST_3.5,68.5,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,POL_3_division-2,R. Rzeszow,Swit Szczecin,?,Mac Sonucu,MS2,42.6,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,POL_3_division-2,R. Rzeszow,Swit Szczecin,?,Skor,skor 1-1,12.3,C,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,UKR_1_premier-league,Kryvbas,FC Kharkiv,?,Mac Sonucu,MS2,53.6,B,bekliyor
-2026-11-25,2026-11-25T16:29+03:00,UKR_1_premier-league,Kryvbas,FC Kharkiv,?,Skor,skor 1-1,12.7,C,bekliyor
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Cremonese,US Avellino,21:00,Mac Sonucu,MS1,37.1,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Cremonese,US Avellino,21:00,Skor,skor 1-1,13.7,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Mac Sonucu,MS1,62.2,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Alt/Ust,UST_1.5,83.4,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Skor,skor 1-1,9.9,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,IY,IY_UST_0.5,72.0,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Korner,korner UST_8.5,61.8,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Sut,sut UST_16.5,59.8,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Boreham Wood,Aldershot Town,22:00,Kart,kart ALT_5.5,73.5,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,Mac Sonucu,MS1,47.6,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,Alt/Ust,UST_1.5,74.9,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,Skor,skor 1-1,13.0,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Mantova,Arezzo,22:00,IY,IY_UST_0.5,68.6,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,Mac Sonucu,MS1,48.0,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,Alt/Ust,UST_1.5,74.4,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,Skor,skor 1-1,13.0,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Padova,Sampdoria,22:00,IY,IY_UST_0.5,68.3,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,Mac Sonucu,MS2,46.1,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,Alt/Ust,UST_1.5,77.8,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,Skor,skor 1-1,12.6,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ITA_2_serie-b,Pisa,Modena,22:00,IY,IY_UST_0.5,70.7,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Mac Sonucu,MS2,47.4,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Alt/Ust,UST_1.5,80.0,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Skor,skor 1-1,12.0,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,IY,IY_UST_0.5,73.8,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Korner,korner UST_9.5,63.3,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Sut,sut ALT_28.5,59.8,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,Kart,kart UST_2.5,71.6,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Bolton Wanderers,West Bromwich Albion,22:45,IY/MS Korner,iy_korner UST_3.5,65.8,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Mac Sonucu,MS2,44.5,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Alt/Ust,UST_1.5,78.2,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Skor,skor 1-1,12.6,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,IY,IY_UST_0.5,72.9,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Korner,korner ALT_11.5,66.6,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Sut,sut UST_25.5,57.2,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,Kart,kart ALT_5.5,76.8,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Burnley,Birmingham City,22:45,IY/MS Korner,iy_korner ALT_5.5,65.8,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Mac Sonucu,MS1,39.5,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Alt/Ust,UST_1.5,78.3,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Skor,skor 1-1,12.7,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,IY,IY_UST_0.5,74.9,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Korner,korner ALT_11.5,63.2,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Sut,sut ALT_28.5,58.6,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,Kart,kart ALT_5.5,74.7,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Watford,Blackburn Rovers,22:45,IY/MS Korner,iy_korner UST_3.5,68.0,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Mac Sonucu,MS1,57.0,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Alt/Ust,UST_1.5,82.4,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Skor,skor 1-1,10.7,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,IY,IY_UST_0.5,72.9,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Korner,korner UST_8.5,64.2,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Sut,sut UST_16.5,58.5,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Harrogate Town,Kidderminster Harriers,22:45,Kart,kart ALT_5.5,75.9,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Mac Sonucu,MS1,46.7,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Alt/Ust,UST_1.5,82.6,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Skor,skor 1-1,11.4,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,IY,IY_UST_0.5,69.5,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Korner,korner UST_8.5,64.2,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Sut,sut UST_16.5,59.2,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_5_national-league,Hartlepool United,Solihull Moors,22:45,Kart,kart UST_2.5,74.4,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Mac Sonucu,MS1,60.3,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Alt/Ust,UST_1.5,79.5,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Skor,skor 1-1,10.9,C,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,IY,IY_UST_0.5,73.4,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Korner,korner ALT_11.5,63.2,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Sut,sut UST_25.5,56.8,B,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,Kart,kart ALT_5.5,75.6,C,veri_yok
+2026-11-25,2026-11-25T16:29+03:00,ENG_2_championship,Stoke City,Millwall,23:00,IY/MS Korner,iy_korner UST_3.5,68.5,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,POL_3_division-2,R. Rzeszow,Swit Szczecin,?,Mac Sonucu,MS2,42.6,B,tutmadi
+2026-11-25,2026-11-25T16:29+03:00,POL_3_division-2,R. Rzeszow,Swit Szczecin,?,Skor,skor 1-1,12.3,C,tuttu
+2026-11-25,2026-11-25T16:29+03:00,UKR_1_premier-league,Kryvbas,FC Kharkiv,?,Mac Sonucu,MS2,53.6,B,tuttu
+2026-11-25,2026-11-25T16:29+03:00,UKR_1_premier-league,Kryvbas,FC Kharkiv,?,Skor,skor 1-1,12.7,C,tutmadi
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,Mac Sonucu,MS2,49.1,B,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,Alt/Ust,UST_1.5,76.1,C,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,Skor,skor 1-1,12.7,C,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,IY,IY_UST_0.5,64.7,C,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,Korner,korner UST_9.5,64.6,C,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,Sut,sut ALT_28.5,60.2,B,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,Kart,kart UST_2.5,70.8,C,bekliyor
+2026-11-26,2026-11-26T16:08+03:00,ENG_3_league-one,Doncaster Rovers,Huddersfield Town,23:00,IY/MS Korner,iy_korner ALT_6.5,71.2,B,bekliyor

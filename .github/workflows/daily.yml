@@ -4,6 +4,7 @@ on:
   pull_request:
   schedule:
     - cron: '0 4 * * *'  # 07:00 Europe/Istanbul (UTC+3 year-round)
+    - cron: '17 4 * * *' # 07:17 Europe/Istanbul backup trigger; may create a second run
 permissions:
   contents: read
   actions: read
